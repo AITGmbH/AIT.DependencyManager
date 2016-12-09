@@ -1,0 +1,92 @@
+id: 4-4.0.r4/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 3-3/_6
+cpath: /trunk/lib/ComponentExternals/ComponentExternals.dll
+copyroot: 0 /
+
+PLAIN
+K 22
+ComponentExternals.dll
+V 15
+file 4-4.0.r4/0
+END
+ENDREP
+id: 2-4.0.r4/271
+type: dir
+count: 0
+text: 4 205 53 53 3646fa162843981b4c133d94475f9659
+cpath: /trunk/lib/ComponentExternals
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 16
+dir 3-2.0.r3/566
+K 10
+ComponentB
+V 17
+dir f-2.0.r2/2756
+K 18
+ComponentExternals
+V 16
+dir 2-4.0.r4/271
+END
+ENDREP
+id: 1-2.0.r4/550
+type: dir
+pred: 1-2.0.r3/811
+count: 2
+text: 4 410 127 127 5c42fd216d35d0811500d5ed91d8a38a
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 16
+dir 1-2.0.r4/550
+K 3
+src
+V 17
+dir q-2.0.r2/3337
+END
+ENDREP
+id: 3-1.0.r4/769
+type: dir
+pred: 3-1.0.r3/1029
+count: 3
+text: 4 691 65 65 3ac5fb651bacb8df347f4d8e0db93898
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 16
+dir 3-1.0.r4/769
+END
+ENDREP
+id: 0.0.r4/1017
+type: dir
+pred: 0.0.r3/1279
+count: 4
+text: 4 905 99 99 5033ecb311d52224fe3cf002f8d0a079
+cpath: /
+copyroot: 0 /
+
+_2.0.t3-3 add-dir false false /trunk/lib/ComponentExternals
+
+_4.0.t3-3 add-file true false /trunk/lib/ComponentExternals/ComponentExternals.dll
+
+
+1017 1145

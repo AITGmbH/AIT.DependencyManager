@@ -1,0 +1,124 @@
+﻿<UserControl x:Class="AIT.DMF.Plugins.Resolver.BinaryRepository.BinaryRepositoryDefinitionEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="500">
+    <Grid SnapsToDevicePixels="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="0"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="*"
+                              MinWidth="150"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   Text="Team Project Collection Url" Margin="0,7" Height="16" />
+        <TextBox Grid.Row="0"
+                 Grid.Column="1"
+                 VerticalAlignment="Center"
+                 Text="{Binding SelectedBinaryTeamProjectCollection, Mode=TwoWay, ValidatesOnDataErrors=True}" 
+                  Margin="0,6" Height="18"/>
+
+        <TextBlock Grid.Row="1"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   Text="Team Project" Margin="0,7" Height="16" />
+        <ComboBox Grid.Row="1"
+                  Grid.Column="1"
+                  VerticalAlignment="Center"
+                  ItemsSource="{Binding AvailableBinaryRepositoryTeamProjects}"
+                  SelectedItem="{Binding SelectedBinaryRepositoryTeamProject, Mode=TwoWay, ValidatesOnDataErrors=True}"
+                 Margin="0,4" Height="22" />
+
+        <TextBlock Grid.Row="2"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   Text="Component" Margin="0,7" Height="16" />
+        <ComboBox Grid.Row="2"
+                  Grid.Column="1"
+                  VerticalAlignment="Center"
+                  ItemsSource="{Binding AvailableComponents}"
+                  SelectedItem="{Binding SelectedComponent, Mode=TwoWay, ValidatesOnDataErrors=True}"
+                   Margin="0,4" Height="22" />
+
+        <TextBlock Grid.Row="3"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   Text="Version" Margin="0,7" Height="16" />
+        <ComboBox Grid.Row="3"
+                  Grid.Column="1"
+                  VerticalAlignment="Center"
+                  ItemsSource="{Binding AvailableVersions}"
+                  SelectedItem="{Binding SelectedVersion, Mode=TwoWay, ValidatesOnDataErrors=True}"
+                  Margin="0,4" Height="22" />
+
+        <!-- Exclude Filter -->
+        <TextBlock Grid.Row="4" VerticalAlignment="Center" Margin="0,7" Height="16">Exclude Filter</TextBlock>
+        <DockPanel Grid.Row="4" Grid.Column="1">
+            <Button DockPanel.Dock="Right" VerticalAlignment="Center" Padding="5, 0, 5, 0" Margin="5, 0, 0, 0" Click="EditExcludeFilters_Click">...</Button>
+            <TextBox DockPanel.Dock="Left" Text="{Binding ExcludeFilter, ValidatesOnDataErrors=True}" VerticalAlignment="Center" />
+        </DockPanel>
+
+        <!-- Include Filter -->
+        <TextBlock Grid.Row="5" VerticalAlignment="Center" Margin="0,7" Height="16">Include Filter</TextBlock>
+        <DockPanel Grid.Row="5" Grid.Column="1">
+            <Button DockPanel.Dock="Right" VerticalAlignment="Center" Padding="5, 0, 5, 0" Margin="5, 0, 0, 0" Click="EditIncludeFilters_Click">...</Button>
+            <TextBox DockPanel.Dock="Left" Text="{Binding IncludeFilter, ValidatesOnDataErrors=True}" VerticalAlignment="Center" />
+        </DockPanel>
+
+
+        <TextBlock Grid.Row="6"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   Text="Folder Mappings" Margin="0,7" Height="16" />
+        <TextBox Grid.Row="6"
+                 Grid.Column="1"
+                 VerticalAlignment="Center"
+                 Text="{Binding SelectedFolderMappings, Mode=TwoWay, ValidatesOnDataErrors=True}" 
+                 
+                 IsEnabled="{Binding IsFolderMappingsEnabled}" Margin="0,6" Height="18" />
+
+        <TextBlock Grid.Row="7"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   Text="Output Path" Margin="0,7" Height="16" />
+        <TextBox Grid.Row="7"
+                 Grid.Column="1"
+                 VerticalAlignment="Center"
+                 Text="{Binding SelectedOutputPath, Mode=TwoWay}" IsEnabled="{Binding IsOutputPathEnabled}" Margin="0,6" Height="18" />
+
+        <CheckBox Name="ZipComponent"
+                     Grid.Row="8"
+                     Grid.Column="0"
+                     Grid.ColumnSpan="2"
+                     VerticalAlignment="Center"
+                     IsEnabled="{Binding IsCompressedDependencyEnabled}" 
+                     IsChecked="{Binding IsZippedComponent, Mode=TwoWay}" Margin="0,4" Height="15">This component is packed in one or more zip file(s)</CheckBox>
+        <CheckBox Name="DeleteZipFiles"
+                     Grid.Row="9"
+                     Grid.Column="0"
+                     Grid.ColumnSpan="2"
+                     VerticalAlignment="Center"
+                     IsEnabled="{Binding IsZippedComponent}" 
+                     IsChecked="{Binding IsDeletionOfZipFiles, Mode=TwoWay}" Margin="20,7" Height="15">Delete the zipped files after extraction</CheckBox>
+
+    </Grid>
+</UserControl>

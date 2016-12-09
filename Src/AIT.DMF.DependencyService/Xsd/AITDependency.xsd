@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AIT_DependencyManager" version="1.0"
+  targetNamespace="http://schemas.aitgmbh.de/DependencyManager/2011/11"
+  xmlns="http://schemas.aitgmbh.de/DependencyManager/2011/11"
+  xmlns:vs="http://schemas.microsoft.com/Visual-Studio-Intellisense"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified">
+  <xs:element name="Component" type="ComponentType" />
+  <xs:complexType name="ComponentType">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Dependencies" type="DependenciesType" />
+    </xs:sequence>
+    <xs:attribute name="Version" type="xs:string" />
+    <xs:attribute name="Name" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DependenciesType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dependency" type="DependencyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DependencyType">
+    <xs:sequence>
+      <xs:element name="Provider" type="DependencyProviderType" />
+    </xs:sequence>
+    <xs:attribute name="Type" type="DependencyTypeEnum" />
+  </xs:complexType>
+  <xs:simpleType name="DependencyTypeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BinaryDependency" />
+      <xs:enumeration value="SourceDependency" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="DependencyProviderType">
+    <xs:sequence>
+      <xs:element name="Settings" type="SettingsType" />
+    </xs:sequence>
+    <xs:attribute name="Type" type="DependencyProviderEnum" />
+  </xs:complexType>
+  <xs:simpleType name="DependencyProviderEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SourceControl" />
+      <xs:enumeration value="SourceControlCopy" />
+      <xs:enumeration value="BuildResult" />
+      <xs:enumeration value="FileShare" />
+      <xs:enumeration value="BinaryRepository" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="SettingsType">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="Setting" type="SettingType" />
+    </xs:sequence>
+    <xs:attribute name="Type" type="SettingsTypeEnum" />
+  </xs:complexType>
+  <xs:simpleType name="SettingsTypeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SourceControlSettings" />
+      <xs:enumeration value="SourceControlCopySettings" />
+      <xs:enumeration value="BuildResultSettings" />
+      <xs:enumeration value="FileShareSettings" />
+      <xs:enumeration value="BinaryRepositorySettings" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="SettingType">
+    <xs:attribute name="Name" type="ProviderSettingsEnum" />
+    <xs:attribute name="Value" type="xs:string" />
+  </xs:complexType>
+  <xs:simpleType name="ProviderSettingsEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="IncludeFilter" />
+      <xs:enumeration value="FileShareRootPath" />
+      <xs:enumeration value="ComponentName" />
+      <xs:enumeration value="VersionNumber" />
+      <xs:enumeration value="TeamProjectName" />
+      <xs:enumeration value="BuildDefinition" />
+      <xs:enumeration value="BuildNumber" />
+      <xs:enumeration value="BuildStatus" />
+      <xs:enumeration value="BuildQuality" />
+      <xs:enumeration value="ServerRootPath" />
+      <xs:enumeration value="VersionSpec" />
+      <xs:enumeration value="FolderMappings" />
+      <xs:enumeration value="BinaryRepositoryTeamProject" />
+      <xs:enumeration value="BinaryTeamProjectCollectionUrl" />
+      <xs:enumeration value="RelativeOutputPath" />
+      <xs:enumeration value="CompressedDependency" />
+      <xs:enumeration value="IgnoreInSideBySideAnomalyChecks" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

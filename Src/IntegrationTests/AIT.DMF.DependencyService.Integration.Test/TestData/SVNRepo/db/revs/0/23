@@ -1,0 +1,42 @@
+PLAIN
+K 14
+ComponentA_1.0
+V 19
+dir 2-18.0-22.r22/0
+END
+ENDREP
+id: 2-1.0.r23/62
+type: dir
+pred: 2-1.0.r22/281
+count: 3
+text: 23 0 49 49 7c2fa886a4f95599fc3fb2ffe602c503
+cpath: /tags
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 16
+dir 2-1.0.r23/62
+K 5
+trunk
+V 18
+dir 3-1.0.r20/1103
+END
+ENDREP
+id: 0.0.r23/311
+type: dir
+pred: 0.0.r22/534
+count: 23
+text: 23 196 102 102 3d62d839c66ab3502e353a8c435d4b19
+cpath: /
+copyroot: 0 /
+
+2-18.0-21.r21/0 delete-dir false false /tags/ComponentA
+
+
+311 443

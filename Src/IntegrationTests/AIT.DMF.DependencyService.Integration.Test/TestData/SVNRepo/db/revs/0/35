@@ -1,0 +1,79 @@
+id: 2-18.0.r35/0
+type: dir
+pred: 2-18.0.r33/203
+count: 6
+text: 30 473 240 240 e57d9229b0738119862e40c0085338ba
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src/ComponentA
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 16
+dir 2-18.0.r35/0
+K 14
+ComponentEmpty
+V 18
+dir 2-25.0.r25/262
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-26.0.r26/0
+END
+ENDREP
+id: q-2.0.r35/352
+type: dir
+pred: q-2.0.r33/564
+count: 13
+text: 35 203 136 136 66449514adf2efd087346fab328b2ba7
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r34/322
+K 3
+src
+V 17
+dir q-2.0.r35/352
+END
+ENDREP
+id: 3-1.0.r35/624
+type: dir
+pred: 3-1.0.r34/545
+count: 28
+text: 35 545 66 66 6d80e9e175d0977d2540ad23c68a46d5
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 17
+dir 3-1.0.r35/624
+END
+ENDREP
+id: 0.0.r35/878
+type: dir
+pred: 0.0.r34/799
+count: 35
+text: 35 763 102 102 e0cb059c2c5ba616b2ab5e456af1f596
+cpath: /
+copyroot: 0 /
+
+2-18.0.t34-z modify-dir false true /trunk/src/ComponentA
+
+
+878 1010

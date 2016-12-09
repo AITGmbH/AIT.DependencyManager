@@ -1,0 +1,83 @@
+id: 2-12.0.r12/0
+type: dir
+count: 0
+cpath: /trunk/lib/ComponentNoTargetsFile
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r8/1030
+K 10
+ComponentB
+V 17
+dir f-2.0.r8/2698
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-12.0.r12/0
+END
+ENDREP
+id: 1-2.0.r12/326
+type: dir
+pred: 1-2.0.r10/658
+count: 7
+text: 12 92 221 221 7ff88a7122408a468344e8976d28491f
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r12/326
+K 3
+src
+V 17
+dir q-2.0.r11/373
+END
+ENDREP
+id: 3-1.0.r12/548
+type: dir
+pred: 3-1.0.r11/640
+count: 11
+text: 12 469 66 66 bc715457a1bc0fabbfb7e433d4ef4c22
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 17
+dir 3-1.0.r12/548
+END
+ENDREP
+id: 0.0.r12/800
+type: dir
+pred: 0.0.r11/892
+count: 12
+text: 12 687 100 100 8381c7f2764ad1c0e4e344ae20c230d5
+cpath: /
+copyroot: 0 /
+
+_2.0.t11-b add-dir false false /trunk/lib/ComponentNoTargetsFile
+
+
+800 932

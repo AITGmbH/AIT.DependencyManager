@@ -1,0 +1,89 @@
+id: 4-25.0.r25/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 24-o/_6
+cpath: /trunk/src/ComponentEmpty/component.targets
+copyroot: 0 /
+
+PLAIN
+K 17
+component.targets
+V 17
+file 4-25.0.r25/0
+END
+ENDREP
+id: 2-25.0.r25/262
+type: dir
+count: 0
+text: 25 199 50 50 6e71f095e47dfa35295578515350967a
+cpath: /trunk/src/ComponentEmpty
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 18
+dir 2-18.0.r20/620
+K 14
+ComponentEmpty
+V 18
+dir 2-25.0.r25/262
+END
+ENDREP
+id: q-2.0.r25/501
+type: dir
+pred: q-2.0.r20/834
+count: 7
+text: 25 400 88 88 7b5d7a686c7402a3226504600979a5b7
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r17/1023
+K 3
+src
+V 17
+dir q-2.0.r25/501
+END
+ENDREP
+id: 3-1.0.r25/771
+type: dir
+pred: 3-1.0.r20/1103
+count: 20
+text: 25 691 67 67 55ec9dcf035e8ea797a11d2c2950212c
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r24/709
+K 5
+trunk
+V 17
+dir 3-1.0.r25/771
+END
+ENDREP
+id: 0.0.r25/1026
+type: dir
+pred: 0.0.r24/961
+count: 25
+text: 25 911 102 102 f57ea718c161eb5d445149d62bb3c1bb
+cpath: /
+copyroot: 0 /
+
+_2.0.t24-o add-dir false false /trunk/src/ComponentEmpty
+
+_4.0.t24-o add-file true false /trunk/src/ComponentEmpty/component.targets
+
+
+1026 1159

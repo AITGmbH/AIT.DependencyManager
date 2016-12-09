@@ -1,0 +1,85 @@
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r17/355
+K 10
+ComponentB
+V 18
+dir f-2.0.r14/3118
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-12.0.r12/0
+K 17
+component.targets
+V 19
+file 5-17.0.r17/510
+K 10
+empty.file
+V 17
+file 2-16.0.r16/0
+END
+ENDREP
+id: 1-2.0.r34/322
+type: dir
+pred: 1-2.0.r31/1240
+count: 14
+text: 34 0 309 309 c0ea5e43848a7ce30e8eb2aeba1dc828
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r34/322
+K 3
+src
+V 17
+dir q-2.0.r33/564
+END
+ENDREP
+id: 3-1.0.r34/545
+type: dir
+pred: 3-1.0.r33/837
+count: 27
+text: 34 466 66 66 fc4059841b71822afa90487264577a56
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 17
+dir 3-1.0.r34/545
+END
+ENDREP
+id: 0.0.r34/799
+type: dir
+pred: 0.0.r33/1091
+count: 34
+text: 34 684 102 102 fa1aa64fb7d785d6ccfdd48b09d8e031
+cpath: /
+copyroot: 0 /
+
+2-31.0.r31/745 delete-dir false false /trunk/lib/Framework
+
+
+799 932

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <!-- Define variables -->
+  <?define Product = "AIT Dependency Management Build Integration" ?>
+  <?define ProductFull = "AIT Dependency Management Build Integration" ?>
+  <?define Manufacturer = "AIT" ?>
+  <?define ManufacturerFull = "AIT GmbH & Co. KG" ?>
+  <?define UpgradeGUID = "6CD381D5-3EBD-46FB-A337-ACE8B0E73329" ?>
+
+  <Product Id="*" Name="$(var.Product)" Language="1033" Version="!(bind.FileVersion.WorkflowActivitiesDLL)" Manufacturer="$(var.ManufacturerFull)" UpgradeCode="$(var.UpgradeGUID)">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MediaTemplate EmbedCab="yes" />
+    <MajorUpgrade DowngradeErrorMessage="A later version of [ProductName] is already installed. Setup will now exit." />
+
+    <!-- All the Add Remove Program properties. -->
+    <Property Id="ARPHELPLINK" Value="http://www.aitgmbh.de/dependencymanager" />
+    <Icon Id="AITIcon" SourceFile="Ressources\AIT.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="AITIcon" />
+    <!-- Describing the UI -->
+    <WixVariable Id="WixUIBannerBmp" Value="Ressources\BannerAIT.jpg" />
+    <WixVariable Id="WixUILicenseRtf" Value="Ressources\License.rtf" />
+    <WixVariable Id="WixUIDialogBmp" Value="Ressources\Dialog.jpg"/>
+
+    <Property Id="SEVENZIP_HEADLINE"
+      Value="{\DlgTitleFont}7-Zip support" />
+
+    <Property Id="SEVENZIP_SHORT_DESCRIPTION_TEXT"
+              Value="Save custom install folder of 7-Zip" />
+
+    <Property Id="SEVENZIP_LONG_DESCRIPTION_TEXT"
+                 Value="7-Zip enables the use of the LZMA algorithm that helps to reduce the space consumed by the archives with simultaneous improved speed. Please select your local 7z.exe, if 7-Zip is not installed in the default directory:" />
+
+    <Property Id="SEVENZIP_ADDITIONAL_INFO" Value="For more information about 7-Zip visit " />
+
+    <Property Id="SEVENZIP_CHANGE_FOLDER_BTN" Value="Select 7z.exe" />
+
+    <Property Id="SEVENZIP_CREATE_REG_ENTRY" />
+
+    <Property Id="WIXUI_INSTALLDIR" Value="PRODUCTFOLDER" />
+
+    <UIRef Id="MyWixUI_InstallDir" />
+
+    <Feature Id="F.BuildTasks" Title="AIT Dependency Management Build Tasks" Level="1">
+      <ComponentGroupRef Id="CG.BuildTasks" />
+    </Feature>
+    <Feature Id="F.BuildIntegrationDocumentation" Title="AIT Dependency Management Build Integration Documentation" Level="1">
+      <ComponentGroupRef Id="CG.Documentation" />
+      <ComponentGroupRef Id="Gc.License"/>
+    </Feature>
+    <Feature Id="F.WindowsWorkflow" Title="AIT Dependency Management Workflow Activities" Level="1">
+      <ComponentGroupRef Id="CG.Workflow" />
+    </Feature>
+    <Feature Id="F.RegistryEntries" Title="AIT Dependency Management Registry Entries" Level="1">
+      <ComponentRef Id="RegistryEntries" />
+    </Feature>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="MSBUILD" Name="MSBuild">
+          <Directory Id="MSBUILDMANUFACTURERFOLDER" Name="$(var.Manufacturer)">
+            <Directory Id="BUILDTASKSFOLDER" Name="DMF" />
+          </Directory>
+        </Directory>
+        <Directory Id="MANUFACTURERFOLDER" Name="$(var.Manufacturer)">
+          <Directory Id="PRODUCTFOLDER" Name="$(var.Product)">
+            <Directory Id="WORKFLOWFOLDER" Name="Windows Workflow">
+              <Directory Id="ACTIVITIESFOLDER" Name="Custom Activities" />
+            </Directory>
+            <Directory Id="DOCUMENTATIONFOLDER" Name="Documentation" />
+            <Directory Id="LICENSESFOLDER" Name="Licenses" />
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+  </Product>
+</Wix>

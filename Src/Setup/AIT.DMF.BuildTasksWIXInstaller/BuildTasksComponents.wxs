@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <ComponentGroup Id="CG.BuildTasks" Directory="BUILDTASKSFOLDER">
+      <ComponentRef Id='MSBuildCommonAssembly'/>
+      <ComponentRef Id='MSBuildContractsAssembly'/>
+      <ComponentRef Id='MSBuildDependencyServiceAssembly'/>
+      <ComponentRef Id='MSBuildDependencyServiceXmlSerializersAssembly'/>
+      <ComponentRef Id='MSBuildLoggingAssembly'/>
+      <ComponentRef Id='MSBuildTasksAssembly'/>
+      <ComponentRef Id='MSBuildPluginFactoryAssembly'/>
+      <ComponentRef Id='MSBuildDownloaderSourceControlCopyAssembly'/>
+      <ComponentRef Id='MSBuildDownloaderSourceControlMappingAssembly'/>
+      <ComponentRef Id='MSBuildDownloaderFileShareCopyAssembly'/>
+      <ComponentRef Id='MSBuildDownloaderZippedDependencyAssembly'/>
+      <ComponentRef Id='MSBuildDownloaderSubversionAssembly' />
+      <ComponentRef Id='MSBuildResolverBinaryRepositoryAssembly'/>
+      <ComponentRef Id='MSBuildResolverBuildResultAssembly'/>
+      <ComponentRef Id='MSBuildResolverVNextBuildResultAssembly'/>
+      <ComponentRef Id='MSBuildResolverFileShareAssembly'/>
+      <ComponentRef Id='MSBuildResolverSourceControlAssembly'/>
+      <ComponentRef Id='MSBuildResolverSubversionAssembly'/>
+      <ComponentRef Id='MSBuildValidatorsCommonAssembly'/>
+      <ComponentRef Id='MSBuildProviderSubversionAssembly'/>
+      <ComponentRef Id='MicrosoftTeamFoundationBuildClientAssembly'/>
+      <ComponentRef Id='MicrosoftTeamFoundationBuildCommonAssembly'/>
+      <ComponentRef Id='MicrosoftTeamFoundationClientAssembly'/>
+      <ComponentRef Id='MicrosoftTeamFoundationCommonAssembly'/>
+      <ComponentRef Id='MicrosoftTeamFoundationVersionControlClientAssembly'/>
+      <ComponentRef Id='MicrosoftTeamFoundationVersionControlCommonAssembly'/>
+      <ComponentRef Id='MicrosoftTeamFoundationBuild2WebApiAssembly'/>
+      <ComponentRef Id='MicrosoftVisualStudioServicesClientAssembly'/>
+      <ComponentRef Id='MicrosoftVisualStudioServicesCommonAssembly'/>
+      <ComponentRef Id='MicrosoftVisualStudioServicesWebApiAssembly'/>
+      <ComponentRef Id='SharpSVNAssemblyx86'/>
+      <ComponentRef Id='SharpSVNAssemblyx64'/>
+    </ComponentGroup>
+    <ComponentGroup Id='CG.Documentation' Directory='DOCUMENTATIONFOLDER'>
+      <ComponentRef Id='InstallationAndConfigurationDoc'/>
+    </ComponentGroup>
+    <ComponentGroup Id='CG.Workflow'>
+      <ComponentGroupRef Id='CG.Workflow.CustomActivities'/>
+      <ComponentGroupRef Id='CG.Workflow.Templates'/>
+    </ComponentGroup>
+    <ComponentGroup Id='CG.Workflow.CustomActivities' Directory='ACTIVITIESFOLDER'>
+      <ComponentRef Id='WorkflowActivitiesAssembly'/>
+    </ComponentGroup>
+    <ComponentGroup Id='CG.Workflow.Templates' Directory='WORKFLOWFOLDER'>
+      <ComponentRef Id='DependencyManagementTemplate'/>
+    </ComponentGroup>
+    <ComponentGroup Id='Gc.License' Directory='LICENSESFOLDER'>
+      <ComponentRef Id='ThirdPartyLicense' />
+    </ComponentGroup>
+
+    <DirectoryRef Id="BUILDTASKSFOLDER">
+      <!--Set the registry values with the dll provided by the user-->
+      <Component Id="RegistryEntries" Guid="{ED9DB292-6E3B-4ED0-B457-330B0141B90B}">
+        <RegistryKey Id="MainKey"
+                     Root="HKCU"
+                     Key="Software\AIT\DependencyManager"
+              Action="createAndRemoveOnUninstall">
+          <RegistryValue  Id="SevenZipDllValue" Type="string" Name="SevenZipInstallPath" Value="[SEVENZIP_EXE_DIR]" />
+          <RegistryValue  Id="DefaultValue" Type="string" Value="Default Value" KeyPath ="yes"/>
+        </RegistryKey>
+      </Component>
+      <Component Id='MSBuildCommonAssembly' Guid='5C01E82D-463B-4E53-8E63-BE3160A4D006'>
+        <File Id='MSBuildCommonDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Common.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildContractsAssembly' Guid='4298CE4D-A92F-453B-ABF0-BC26F6271F20'>
+        <File Id='MSBuildContractsDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Contracts.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildDependencyServiceAssembly' Guid='27658D3E-B159-406A-A6C1-936A8488ADEF'>
+        <File Id='MSBuildDependencyServiceDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.DependencyService.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildDependencyServiceXmlSerializersAssembly' Guid='30B9E83F-9B2E-4220-B8D8-E0D098E85571'>
+        <File Id='MSBuildDependencyServiceXmlSerializersDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.DependencyService.XmlSerializers.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildLoggingAssembly' Guid='350C0061-3D84-4429-8C2E-03E6B2A649D3'>
+        <File Id='MSBuildLoggingDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Logging.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildTasksAssembly' Guid='D41BADF7-D227-44C2-89BB-BFD6C7AA37E3'>
+        <File Id='MSBuildTasksDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.MSBuild.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildPluginFactoryAssembly' Guid='CD149BA5-2F11-4FFB-8BD7-424FF0DA47FF'>
+        <File Id='MSBuildPluginFactoryDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.PluginFactory.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildDownloaderSourceControlCopyAssembly' Guid='A2217B4F-2B09-4AB9-98D8-164FFCFC9FC2'>
+        <File Id='MSBuildDownloaderSourceControlCopyDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Downloader.SourceControlCopy.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildDownloaderSourceControlMappingAssembly' Guid='F84F824A-509E-4403-A86C-4A78ECD70447'>
+        <File Id='MSBuildDownloaderSourceControlMappingDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Downloader.SourceControlMapping.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildDownloaderFileShareCopyAssembly' Guid='9B01DE9A-8A0E-4693-956D-577BA134C9DC'>
+        <File Id='MSBuildDownloaderFileShareCopyDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Downloader.FileShareCopy.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildDownloaderZippedDependencyAssembly' Guid='F2C503D7-789D-45E7-BDCE-3443B37FBDCC'>
+        <File Id='MSBuildDownloaderZippedDependencyDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Downloader.ZippedDependency.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildDownloaderSubversionAssembly' Guid='534AB0C9-A979-471D-8B17-C69655697635'>
+        <File Id='MSBuildDownloaderSubversionDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Downloader.Subversion.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildResolverBinaryRepositoryAssembly' Guid='3C1BBA60-397B-453A-AE3F-387E89FEC58B'>
+        <File Id='MSBuildResolverBinaryRepositoryDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Resolver.BinaryRepository.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildResolverBuildResultAssembly' Guid='0825BE4D-15F0-44A0-A9D3-7B5B144FA32C'>
+        <File Id='MSBuildResolverBuildResultDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Resolver.BuildResult.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+
+      <Component Id='MSBuildResolverVNextBuildResultAssembly' Guid='243d931b-785c-450c-9f1b-ca1b0d337de2'>
+        <File Id='MSBuildResolverVNextBuildResultDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Resolver.VNextBuildResult.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+
+      <Component Id='MicrosoftTeamFoundationBuildClientAssembly' Guid='9b690a3a-67c4-4e63-82de-be0fb813e893'>
+        <File Id='MicrosoftTeamFoundationBuildClient' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.TeamFoundation.Build.Client.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftTeamFoundationBuildCommonAssembly' Guid='19556882-4ED1-4B41-9AB8-16908DD008AE'>
+        <File Id='MicrosoftTeamFoundationBuildCommon' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.TeamFoundation.Build.Common.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftTeamFoundationClientAssembly' Guid='4b3265c4-4ff7-42b4-b34f-70f8fa6914f0'>
+        <File Id='MicrosoftTeamFoundationClient' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.TeamFoundation.Client.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftTeamFoundationCommonAssembly' Guid='25a494d1-6085-41de-a730-38c0c6589988'>
+        <File Id='MicrosoftTeamFoundationCommon' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.TeamFoundation.Common.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftTeamFoundationVersionControlClientAssembly' Guid='4e4e9884-4a53-4a88-b07c-4338d5ccf8bd'>
+        <File Id='MicrosoftTeamFoundationVersionControlClient' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.TeamFoundation.VersionControl.Client.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftTeamFoundationVersionControlCommonAssembly' Guid='a0217c23-730e-4853-a426-4a337c606858'>
+        <File Id='MicrosoftTeamFoundationVersionControlCommon' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.TeamFoundation.VersionControl.Common.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftTeamFoundationBuild2WebApiAssembly' Guid='fd0de3ab-a3cc-4499-a41d-6e093f8f3033'>
+        <File Id='MicrosoftTeamFoundationBuild2WebApi' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.TeamFoundation.Build2.WebApi.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftVisualStudioServicesClientAssembly' Guid='2306bd5f-272c-48d9-8336-5476737f3c98'>
+        <File Id='MicrosoftVisualStudioServicesClient' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.VisualStudio.Services.Client.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftVisualStudioServicesCommonAssembly' Guid='ba93b8ab-ace9-4d00-89d8-05681208fc1f'>
+        <File Id='MicrosoftVisualStudioServicesCommon' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.VisualStudio.Services.Common.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MicrosoftVisualStudioServicesWebApiAssembly' Guid='79db9999-1a3f-4db0-ad94-f03ce4622c52'>
+        <File Id='MicrosoftVisualStudioServicesWebApi' Source='$(var.AIT.DMF.MSBuild.TargetDir)Microsoft.VisualStudio.Services.WebApi.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildResolverFileShareAssembly' Guid='B6F8D764-5374-4CEA-B5C1-6FA63D75173D'>
+        <File Id='MSBuildResolverFileShareDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Resolver.FileShare.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildResolverSourceControlAssembly' Guid='3506AD4D-252A-4231-B3EE-163B043F5A8F'>
+        <File Id='MSBuildResolverSourceControlDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Resolver.SourceControl.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildResolverSubversionAssembly' Guid='20D21911-9F3A-444C-A92E-0AB5C88216D9'>
+        <File Id='MSBuildResolverSubversionDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Resolver.Subversion.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildValidatorsCommonAssembly' Guid='13F223B8-6ACD-4211-A972-6B445FCBC2C9'>
+        <File Id='MSBuildValidatorsCommonDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Plugins.Validators.Common.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='MSBuildProviderSubversionAssembly' Guid='3D2A9B86-E611-4EBA-8846-87CEF520F8B8'>
+        <File Id='MSBuildProviderSubversionDLL' Source='$(var.AIT.DMF.MSBuild.TargetDir)AIT.DMF.Provider.Subversion.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+      <Component Id='SharpSVNAssemblyx86' Guid='E84717F7-84A4-4040-9A3D-A48181146622'>
+        <File Id='SharpSVNDLL86' Source='$(var.SolutionDir)packages\SharpSvn.1.8-x86.1.8009.3299.43\lib\net40\SharpSVN.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+        <Condition>%PROCESSOR_ARCHITECTURE = "x86"</Condition>
+      </Component>
+      <Component Id='SharpSVNAssemblyx64' Guid='36C16AEC-ACFE-4FB8-8B82-A7225E087BF9'>
+        <File Id='SharpSVNDLL64' Source='$(var.SolutionDir)packages\SharpSvn.1.8-x64.1.8009.3299.43\lib\net40\SharpSVN.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+        <Condition>NOT(%PROCESSOR_ARCHITECTURE = "x86")</Condition>
+      </Component>
+    </DirectoryRef>
+    <DirectoryRef Id="DOCUMENTATIONFOLDER">
+      <Component Id='InstallationAndConfigurationDoc' Guid='57A76755-BEF4-4E93-98EA-E83B5796908A'>
+        <File Id='InstallationAndConfigurationPDF' Source='$(var.SolutionDir)..\Doc\AIT Dependency Management Build Integration - Installation and Configuration.pdf' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+    </DirectoryRef>
+    <DirectoryRef Id='LICENSESFOLDER'>
+      <Component Id='ThirdPartyLicense' Guid='A2911420-DDEE-4ACF-8097-6037D712E156'>
+        <File Id='ThirdPartyLicenseFile' Source='$(var.SolutionDir)..\Licenses\ThirdPartyNotices.txt' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+    </DirectoryRef>
+    <DirectoryRef Id="ACTIVITIESFOLDER">
+      <Component Id='WorkflowActivitiesAssembly' Guid='98F6038C-DC93-4133-B5F0-77048FD6B8A3'>
+        <File Id='WorkflowActivitiesDLL' Source='$(var.AIT.DMF.Workflow.TargetDir)Merged\AIT.DMF.Workflow.dll' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+    </DirectoryRef>
+    <DirectoryRef Id='WORKFLOWFOLDER'>
+      <Component Id='DependencyManagementTemplate' Guid='F0F03E72-C94A-4BBC-A294-52CA396C493A'>
+        <File Id='DependencyManagementTemplateFILE' Source='$(var.AIT.DMF.Workflow.TargetDir)AITDependencyManagementTemplate.V20.xaml' KeyPath='yes' Checksum='yes' Vital='yes' />
+      </Component>
+    </DirectoryRef>
+  </Fragment>
+</Wix>

@@ -1,0 +1,96 @@
+id: 4-7.0.r7/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 6-6/_6
+cpath: /trunk/lib/ComponentEmtpy/componen.targets
+copyroot: 0 /
+
+PLAIN
+K 16
+componen.targets
+V 15
+file 4-7.0.r7/0
+END
+ENDREP
+id: 2-7.0.r7/255
+type: dir
+count: 0
+text: 7 195 47 47 ac966d8966d42bf54620767abbfeb4a8
+cpath: /trunk/lib/ComponentEmtpy
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 16
+dir 3-2.0.r3/566
+K 10
+ComponentB
+V 17
+dir f-2.0.r2/2756
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r7/255
+K 18
+ComponentExternals
+V 16
+dir 2-4.0.r4/271
+END
+ENDREP
+id: 1-2.0.r7/572
+type: dir
+pred: 1-2.0.r4/550
+count: 3
+text: 7 390 169 169 443246997b0e1c2e978814bda73167a2
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 16
+dir 1-2.0.r7/572
+K 3
+src
+V 15
+dir q-2.0.r6/17
+END
+ENDREP
+id: 3-1.0.r7/789
+type: dir
+pred: 3-1.0.r6/279
+count: 6
+text: 7 713 63 63 1106817f2e154004a6ae0dd8487c88e8
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 16
+dir 3-1.0.r7/789
+END
+ENDREP
+id: 0.0.r7/1036
+type: dir
+pred: 0.0.r6/526
+count: 7
+text: 7 924 99 99 2d5b2f212ba2bced241c5ab152df14d8
+cpath: /
+copyroot: 0 /
+
+_2.0.t6-6 add-dir false false /trunk/lib/ComponentEmtpy
+
+_4.0.t6-6 add-file true false /trunk/lib/ComponentEmtpy/componen.targets
+
+
+1036 1163

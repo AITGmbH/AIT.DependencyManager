@@ -1,0 +1,127 @@
+id: a-2.0.r13/0
+type: file
+pred: a-2.0.r2/411
+count: 1
+text: 11 0 70 58 c7f11efcd2d7255a537ac93b77c9bee2 9d4c951127324ebb90abc575257b91b557078ac6 12-c/_5
+cpath: /trunk/lib/ComponentA/2.0/component.targets
+copyroot: 0 /
+
+PLAIN
+K 18
+ComponentA.2_0.dll
+V 15
+file 4-8.0.r8/0
+K 17
+component.targets
+V 16
+file a-2.0.r13/0
+END
+ENDREP
+id: 9-2.0.r13/327
+type: dir
+pred: 9-2.0.r8/305
+count: 2
+text: 13 220 94 94 61ebb6359732d6108ca8be8084e8a679
+cpath: /trunk/lib/ComponentA/2.0
+copyroot: 0 /
+
+PLAIN
+K 3
+1.0
+V 16
+dir 5-2.0.r3/304
+K 3
+2.0
+V 17
+dir 9-2.0.r13/327
+K 3
+3.0
+V 16
+dir c-2.0.r8/768
+END
+ENDREP
+id: 3-2.0.r13/591
+type: dir
+pred: 3-2.0.r8/1030
+count: 3
+text: 13 483 95 95 be56767c09ff45d9d51099cf40396cd7
+cpath: /trunk/lib/ComponentA
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r13/591
+K 10
+ComponentB
+V 17
+dir f-2.0.r8/2698
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-12.0.r12/0
+END
+ENDREP
+id: 1-2.0.r13/978
+type: dir
+pred: 1-2.0.r12/326
+count: 8
+text: 13 744 221 221 cbf574c1036f9791805d8eac6896bdc9
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r13/978
+K 3
+src
+V 17
+dir q-2.0.r11/373
+END
+ENDREP
+id: 3-1.0.r13/1201
+type: dir
+pred: 3-1.0.r12/548
+count: 12
+text: 13 1122 66 66 3e6b00979a2f1bcbe156f884a7c8ecab
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 18
+dir 3-1.0.r13/1201
+END
+ENDREP
+id: 0.0.r13/1456
+type: dir
+pred: 0.0.r12/800
+count: 13
+text: 13 1342 101 101 fa238d2738c8bd6d76404393376893f4
+cpath: /
+copyroot: 0 /
+
+a-2.0.t12-c modify-file true false /trunk/lib/ComponentA/2.0/component.targets
+
+
+1456 1590

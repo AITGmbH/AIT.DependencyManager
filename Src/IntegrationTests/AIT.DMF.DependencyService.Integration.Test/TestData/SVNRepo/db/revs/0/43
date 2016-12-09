@@ -1,0 +1,149 @@
+id: 7-40.0-43.r43/0
+type: file
+pred: 7-40.0.r40/195
+count: 1
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 39-14/_a
+cpath: /trunk/lib/Common/SubCommon/SubCommon2.cs
+copyfrom: 42 /trunk/lib/Common/SubCommon/Common2.cs
+
+PLAIN
+K 10
+Common3.cs
+V 19
+file 8-40.0.r40/392
+K 13
+SubCommon1.cs
+V 20
+file 5-40.0-42.r42/0
+K 13
+SubCommon2.cs
+V 20
+file 7-40.0-43.r43/0
+END
+ENDREP
+id: 3-40.0.r43/408
+type: dir
+pred: 3-40.0.r42/402
+count: 2
+text: 43 260 135 135 a69c789841301ba0f281c86fdc5eeddc
+cpath: /trunk/lib/Common/SubCommon
+copyroot: 0 /
+
+PLAIN
+K 10
+Common1.cs
+V 17
+file 4-37.0.r37/0
+K 10
+Common2.cs
+V 19
+file 6-37.0.r37/185
+K 10
+Common3.cs
+V 19
+file 7-37.0.r37/372
+K 9
+SubCommon
+V 18
+dir 3-40.0.r43/408
+END
+ENDREP
+id: 2-37.0.r43/747
+type: dir
+pred: 2-37.0.r42/741
+count: 3
+text: 43 571 163 163 1f8ffd6526941ae60a15d9962bd274f6
+cpath: /trunk/lib/Common
+copyroot: 0 /
+
+PLAIN
+K 6
+Common
+V 18
+dir 2-37.0.r43/747
+K 10
+ComponentA
+V 17
+dir 3-2.0.r17/355
+K 10
+ComponentB
+V 18
+dir f-2.0.r14/3118
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-12.0.r12/0
+K 17
+component.targets
+V 19
+file 5-17.0.r17/510
+K 10
+empty.file
+V 17
+file 2-16.0.r16/0
+END
+ENDREP
+id: 1-2.0.r43/1257
+type: dir
+pred: 1-2.0.r42/1252
+count: 18
+text: 43 900 344 344 34140bce8cfab73adaf2faaabaf97313
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r43/1257
+K 3
+src
+V 17
+dir q-2.0.r41/765
+END
+ENDREP
+id: 3-1.0.r43/1484
+type: dir
+pred: 3-1.0.r42/1479
+count: 36
+text: 43 1404 67 67 c308b09a2c25757a211e08f9090db17b
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 18
+dir 3-1.0.r43/1484
+END
+ENDREP
+id: 0.0.r43/1742
+type: dir
+pred: 0.0.r42/1737
+count: 43
+text: 43 1626 103 103 dc1422bc12dc062544dfaac4bcf5b900
+cpath: /
+copyroot: 0 /
+
+7-40.0.r40/195 delete-file false false /trunk/lib/Common/SubCommon/Common2.cs
+
+7-40._0.t42-17 add-file false false /trunk/lib/Common/SubCommon/SubCommon2.cs
+42 /trunk/lib/Common/SubCommon/Common2.cs
+
+1742 1877

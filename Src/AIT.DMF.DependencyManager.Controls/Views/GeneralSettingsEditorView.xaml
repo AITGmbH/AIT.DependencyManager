@@ -1,0 +1,245 @@
+﻿<UserControl x:Class="AIT.DMF.DependencyManager.Controls.Views.GeneralSettingsEditorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:converters="clr-namespace:AIT.DMF.DependencyManager.Controls.Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="500"
+             d:DesignWidth="300"
+             MinHeight="550"
+           >
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\Resources\Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <converters:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+            <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"  >
+
+
+        <Grid Grid.IsSharedSizeScope="True" SnapsToDevicePixels="True" Margin="0,0,0,0" d:DataContext="{d:DesignData local:GeneralSettingsEditorViewModel}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="36" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="50" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"
+                              MinWidth="200"
+                              SharedSizeGroup="First"
+                              />
+                <ColumnDefinition Width="*"
+                              />
+                <ColumnDefinition Width="*"
+                              MinWidth="10"
+                              />
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="5,5,0,5"
+                   Grid.Row="1" Grid.ColumnSpan="2"
+                   Style="{StaticResource CaptionStyle}"
+                   Text="General Settings" />
+
+            <TextBlock Margin="5" Text="Fetch dependencies on local build"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   ToolTip="When checked, dependencies are fetched every time a local build is triggered"/>
+
+            <CheckBox IsChecked="{Binding FetchDependenciesOnLocalSolutionBuild, Mode=TwoWay}"
+                  Margin="5,6,0,6"
+                  Width="80"
+                  HorizontalAlignment="Left"
+                  Grid.Row="2" Grid.Column="1"
+                  IsEnabled="{Binding IsConnected}" VerticalAlignment="Center" Height="14" TabIndex="0"/>
+
+            <TextBlock Margin="5,11"
+                   Text="Definition filename extension"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   ToolTip="File extension used to store dependency information" Height="16" />
+            <TextBox Margin="5,6,0,6"
+                 Width="180"
+                 VerticalAlignment ="Center"
+                 HorizontalAlignment="Left"
+                 Text="{Binding FilenameExtension, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}"
+                 Grid.Row="3"
+                 Grid.Column="1"
+                 IsEnabled="{Binding IsConnected}" Height="26" TabIndex="1"/>
+
+            <TextBlock Margin="5,10"
+                   Text="Default relative output path"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   ToolTip="Default location relative to the dependency file into which dependencies are saved when no output location is set." Height="16" />
+            <TextBox Margin="5,5,0,5"
+                         Width="180"
+                 VerticalAlignment ="Center"
+                 HorizontalAlignment="Left"
+                 Text="{Binding RelativeOutputPath, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}"
+                 Grid.Row="4"
+                 Grid.Column="1"
+                 IsEnabled="{Binding IsConnected}" Height="26" TabIndex="2"/>
+
+            <TextBlock Margin="5,5,0,5"
+                   Grid.Row="8" Grid.ColumnSpan="2"
+                   Style="{StaticResource CaptionStyle}"
+                   Text="Depedency Provider" />
+
+            <ItemsControl ItemsSource="{Binding ResolverTypes}" Grid.Row="9" Grid.ColumnSpan="2"
+                      Grid.Column="0"
+                      Margin="0,0,0,44">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition SharedSizeGroup="First" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Margin="5" Grid.Column="0" Grid.Row="0"
+                                   Text="{Binding DisplayName, StringFormat={}{0} dependency}">
+                                <TextBlock.ToolTip>
+                                    <TextBlock Text="{Binding DisplayName, StringFormat='When checked, users are allowed to create {0} dependencies'}" />
+
+                                </TextBlock.ToolTip>
+                        </TextBlock>
+                            <CheckBox Margin="5" Grid.Column="1" Grid.Row="0"
+                                  VerticalAlignment="Center" TabIndex="6"
+                                  IsChecked="{Binding IsEnabled, Mode=TwoWay}"
+                                  IsEnabled="{Binding DataContext.IsConnected, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}}}" />
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+
+            </ItemsControl>
+
+
+            <TextBlock Margin="5,10,5,5"
+                   Grid.Row="10" Grid.ColumnSpan="2"
+                   Grid.Column="0"
+                   Style="{StaticResource CaptionStyle}"
+                   Text="Binary Repository" Grid.RowSpan="2" />
+
+            <TextBlock Margin="5,10"
+                   Text="Team project collection URL"
+                   Grid.Row="12"
+                   Grid.Column="0"
+                   VerticalAlignment="Center" Height="16" />
+            <TextBox Margin="5,5,0,5"
+                         Width="180"
+                 VerticalAlignment ="Center"
+                 HorizontalAlignment="Left"
+                 Text="{Binding BinaryRepositoryTeamProjectCollectionUri, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}"
+                 Grid.Row="12"
+                 Grid.Column="1"
+                 IsEnabled="{Binding IsConnected}" Height="26" TabIndex="7"/>
+
+            <TextBlock
+            Margin="5,10"
+            Text="Team project name"
+            Grid.Row="13"
+            Grid.Column="0"
+            VerticalAlignment="Center" Height="16" />
+            <TextBox Margin="5,5,0,5"
+                         Width="180"
+                 VerticalAlignment ="Center"
+                 HorizontalAlignment="Left"
+                 Text="{Binding BinaryRepositoryTeamProject, Mode=TwoWay}"
+                 Grid.Row="13"
+                 Grid.Column="1"
+                 IsEnabled="{Binding IsConnected}" Height="26" TabIndex="8"/>
+
+            <TextBlock Margin="5"
+                   ToolTip="When checked, users can edit the fields for folder mappings, include filter and output path for binary repositories"
+                   Text="Enable component settings"
+                   Grid.Row="14"
+                   Grid.Column="0" />
+            <CheckBox IsChecked="{Binding IsBinaryRepositoryComponentSettingsEnabled, Mode=TwoWay}"
+                  Margin="5,6,0,6"
+                  Width="80"
+                 HorizontalAlignment="Left"
+                  IsEnabled="{Binding IsConnected}"
+                  Grid.Row="14" Grid.Column="1" VerticalAlignment="Center" Height="14" TabIndex="9" />
+
+            <TextBlock Margin="5"
+                   Text="Filter components"
+                   Grid.Row="15"
+                   Grid.Column="0"
+                   ToolTip="When checked, binary repository components are filtered if a filter is set. When unchecked, binary repository components are never filtered"
+                   />
+            <CheckBox IsChecked="{Binding BinaryRepositoryFilterComponentList, Mode=TwoWay}"
+                    Margin="5,5,0,31"
+                    Width="80"
+                    HorizontalAlignment="Left"
+                  IsEnabled="{Binding IsConnected}"
+                  Grid.Row="15" Grid.Column="1" VerticalAlignment="Center" Height="14" TabIndex="10"/>
+
+            <StackPanel Grid.Row="16"
+                    Grid.ColumnSpan="2"
+                    Margin="5,15,0,5"
+                    HorizontalAlignment="Left"
+                    Orientation="Vertical" Width="350">
+                <TextBlock
+                Margin="0,0,0,5"
+                TextWrapping="Wrap"
+                Foreground="#FFF50707"
+                Text="Failed to load at least one entry. Using default values instead. Make sure you have permission to read from server registry. If no settings have been saved to the registry yet, this warning will disappear after a successful save."
+                Visibility="{Binding LoadSettingsFailed, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                <TextBlock
+                Text="You are not connected to Team Foundation Server"
+                TextWrapping="Wrap"
+                Visibility="{Binding ProjectContext.DomainUri, Converter={StaticResource NullToVisibilityConverter}, ConverterParameter=True}" Foreground="#FFF50707"/>
+                <TextBlock
+                Text="Failed to save settings"
+                Margin="0,0,0,5"
+                TextWrapping="Wrap"
+                Visibility="{Binding SaveSettingsFailed, Converter={StaticResource BooleanToVisibilityConverter}}" Foreground="#FFF50707"/>
+                <TextBlock
+                Text="{Binding ProjectContext.DomainUri, StringFormat='Connected to {0}'}"
+                Visibility="{Binding ProjectContext.DomainUri, Converter={StaticResource NullToVisibilityConverter}, ConverterParameter=False}"/>
+
+                <Button Margin="0,5"
+                    Content="Save"
+                    Width="70"
+                    Command="{Binding SaveCommand}"
+                    HorizontalAlignment="Left" TabIndex="11"/>
+            </StackPanel>
+            <TextBlock HorizontalAlignment="Left" Margin="5,7,0,0" Grid.Row="6" TextWrapping="Wrap" Text="Allow zipped dependencies" VerticalAlignment="Top" Height="16" Width="145"/>
+            <CheckBox IsChecked="{Binding IsZippedDependencyAllowed, Mode=TwoWay}"
+            	Margin="5,7,0,7"
+
+            	IsEnabled="{Binding IsConnected}" VerticalAlignment="Center"
+            	Content="" Grid.Row="6" Height="14" Grid.Column="1" Width="80" HorizontalAlignment="Left" TabIndex="5"
+                  />
+
+            <TextBlock HorizontalAlignment="Left" Margin="5,7,0,0" Grid.Row="7" TextWrapping="Wrap" Text="Allow Multi-Site path replacement" VerticalAlignment="Top" Height="16" Width="181"/>
+            <CheckBox IsChecked="{Binding IsMultiSiteAllowed, Mode=TwoWay}"
+            	Margin="0,12,159,10"
+
+            	IsEnabled="{Binding IsConnected}" VerticalAlignment="Center" Grid.Row="7" Height="14" Grid.Column="1" Width="21" HorizontalAlignment="Right" TabIndex="6"
+                  />
+            <Button Content="Configure" Grid.Row="7" Grid.Column="1" Margin="0,7,72,0" Name="ConfigureMultiSite" Click="ConfigureMultiSite_Click" IsEnabled="{Binding IsMultiSiteAllowed}" Height="25" VerticalAlignment="Top" TabIndex="7" HorizontalAlignment="Right" Width="70" />
+
+        </Grid>
+    </ScrollViewer>
+</UserControl>

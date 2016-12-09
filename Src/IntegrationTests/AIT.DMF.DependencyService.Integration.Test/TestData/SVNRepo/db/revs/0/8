@@ -1,0 +1,257 @@
+id: 4-8.0.r8/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 7-7/_h
+cpath: /trunk/lib/ComponentA/2.0/ComponentA.2_0.dll
+copyroot: 0 /
+
+PLAIN
+K 18
+ComponentA.2_0.dll
+V 15
+file 4-8.0.r8/0
+K 17
+component.targets
+V 17
+file a-2.0.r2/411
+END
+ENDREP
+id: 9-2.0.r8/305
+type: dir
+pred: 9-2.0.r2/672
+count: 1
+text: 8 197 95 95 a940086b2edf45c6395742eebbb1f527
+cpath: /trunk/lib/ComponentA/2.0
+copyroot: 0 /
+
+id: 6-8.0.r8/459
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 7-7/_j
+cpath: /trunk/lib/ComponentA/3.0/ComponentA.3_0.dll
+copyroot: 0 /
+
+PLAIN
+K 18
+ComponentA.3_0.dll
+V 17
+file 6-8.0.r8/459
+K 17
+component.targets
+V 17
+file d-2.0.r2/807
+END
+ENDREP
+id: c-2.0.r8/768
+type: dir
+pred: c-2.0.r2/1068
+count: 1
+text: 8 658 97 97 855e3e2cc5e89938ca40fbb4ea05e48a
+cpath: /trunk/lib/ComponentA/3.0
+copyroot: 0 /
+
+PLAIN
+K 3
+1.0
+V 16
+dir 5-2.0.r3/304
+K 3
+2.0
+V 16
+dir 9-2.0.r8/305
+K 3
+3.0
+V 16
+dir c-2.0.r8/768
+END
+ENDREP
+id: 3-2.0.r8/1030
+type: dir
+pred: 3-2.0.r3/566
+count: 2
+text: 8 923 94 94 2907e3a2000b498316a467e279ce24d0
+cpath: /trunk/lib/ComponentA
+copyroot: 0 /
+
+id: 9-8.0.r8/1181
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 7-7/_f
+cpath: /trunk/lib/ComponentB/7.0/ComponentB.7_0.dll
+copyroot: 0 /
+
+PLAIN
+K 18
+ComponentB.7_0.dll
+V 18
+file 9-8.0.r8/1181
+K 17
+component.targets
+V 18
+file i-2.0.r2/1446
+END
+ENDREP
+id: g-2.0.r8/1493
+type: dir
+pred: g-2.0.r2/1709
+count: 1
+text: 8 1381 99 99 4451fa88f41f8c598418b7e1c2e8c73c
+cpath: /trunk/lib/ComponentB/7.0
+copyroot: 0 /
+
+id: b-8.0.r8/1650
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 7-7/_g
+cpath: /trunk/lib/ComponentB/8.0/ComponentB.8_0.dll
+copyroot: 0 /
+
+PLAIN
+K 18
+ComponentB.8_0.dll
+V 18
+file b-8.0.r8/1650
+K 17
+component.targets
+V 18
+file l-2.0.r2/1846
+END
+ENDREP
+id: k-2.0.r8/1962
+type: dir
+pred: k-2.0.r2/2109
+count: 1
+text: 8 1850 99 99 66b764bd8c0d4fefd860d80653833bf9
+cpath: /trunk/lib/ComponentB/8.0
+copyroot: 0 /
+
+id: d-8.0.r8/2119
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 7-7/_i
+cpath: /trunk/lib/ComponentB/9.0/ComponentB.9_0.dll
+copyroot: 0 /
+
+PLAIN
+K 18
+ComponentB.9_0.dll
+V 18
+file d-8.0.r8/2119
+K 17
+component.targets
+V 18
+file o-2.0.r2/2246
+END
+ENDREP
+id: n-2.0.r8/2431
+type: dir
+pred: n-2.0.r2/2509
+count: 1
+text: 8 2319 99 99 3d6498e5cc77a5e4b1770785879ad4bb
+cpath: /trunk/lib/ComponentB/9.0
+copyroot: 0 /
+
+PLAIN
+K 3
+7.0
+V 17
+dir g-2.0.r8/1493
+K 3
+8.0
+V 17
+dir k-2.0.r8/1962
+K 3
+9.0
+V 17
+dir n-2.0.r8/2431
+END
+ENDREP
+id: f-2.0.r8/2698
+type: dir
+pred: f-2.0.r2/2756
+count: 1
+text: 8 2588 97 97 6e037103ccff391dc18c55be76663e0e
+cpath: /trunk/lib/ComponentB
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r8/1030
+K 10
+ComponentB
+V 17
+dir f-2.0.r8/2698
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r7/255
+K 18
+ComponentExternals
+V 16
+dir 2-4.0.r4/271
+END
+ENDREP
+id: 1-2.0.r8/3034
+type: dir
+pred: 1-2.0.r7/572
+count: 4
+text: 8 2851 170 170 bc1e0674a042bdfa80a3c25ab149b989
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r8/3034
+K 3
+src
+V 15
+dir q-2.0.r6/17
+END
+ENDREP
+id: 3-1.0.r8/3254
+type: dir
+pred: 3-1.0.r7/789
+count: 7
+text: 8 3177 64 64 f8747333fedecc5957a48db1c10ff1fb
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 17
+dir 3-1.0.r8/3254
+END
+ENDREP
+id: 0.0.r8/3504
+type: dir
+pred: 0.0.r7/1036
+count: 8
+text: 8 3391 100 100 c120a4660fd4c54addc07e7f2e1713ab
+cpath: /
+copyroot: 0 /
+
+_4.0.t7-7 add-file true false /trunk/lib/ComponentA/2.0/ComponentA.2_0.dll
+
+_6.0.t7-7 add-file true false /trunk/lib/ComponentA/3.0/ComponentA.3_0.dll
+
+_9.0.t7-7 add-file true false /trunk/lib/ComponentB/7.0/ComponentB.7_0.dll
+
+_b.0.t7-7 add-file true false /trunk/lib/ComponentB/8.0/ComponentB.8_0.dll
+
+_d.0.t7-7 add-file true false /trunk/lib/ComponentB/9.0/ComponentB.9_0.dll
+
+
+3504 3635

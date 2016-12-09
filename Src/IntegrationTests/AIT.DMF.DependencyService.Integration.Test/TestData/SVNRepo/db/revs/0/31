@@ -1,0 +1,138 @@
+id: 4-31.0.r31/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 30-v/_8
+cpath: /trunk/lib/Framework/FrameworkLib1.dll
+copyroot: 0 /
+
+id: 6-31.0.r31/194
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 30-v/_9
+cpath: /trunk/lib/Framework/FrameworkLib2.dll
+copyroot: 0 /
+
+id: 7-31.0.r31/390
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 30-v/_a
+cpath: /trunk/lib/Framework/FrameworkLib3.dll
+copyroot: 0 /
+
+PLAIN
+K 17
+FrameworkLib1.dll
+V 17
+file 4-31.0.r31/0
+K 17
+FrameworkLib2.dll
+V 19
+file 6-31.0.r31/194
+K 17
+FrameworkLib3.dll
+V 19
+file 7-31.0.r31/390
+END
+ENDREP
+id: 2-31.0.r31/745
+type: dir
+count: 0
+text: 31 586 146 146 31098197927975cfd9ec1a0d761bc2db
+cpath: /trunk/lib/Framework
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r17/355
+K 10
+ComponentB
+V 18
+dir f-2.0.r14/3118
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-12.0.r12/0
+K 9
+Framework
+V 18
+dir 2-31.0.r31/745
+K 17
+component.targets
+V 19
+file 5-17.0.r17/510
+K 10
+empty.file
+V 17
+file 2-16.0.r16/0
+END
+ENDREP
+id: 1-2.0.r31/1240
+type: dir
+pred: 1-2.0.r17/1023
+count: 13
+text: 31 880 347 347 0eb3aa123776d90b9bd48a222eaa1ae0
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r31/1240
+K 3
+src
+V 18
+dir q-2.0.r30/1034
+END
+ENDREP
+id: 3-1.0.r31/1468
+type: dir
+pred: 3-1.0.r30/1309
+count: 24
+text: 31 1387 68 68 e5e71c7c0973e725918d03d703b107c9
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 18
+dir 3-1.0.r31/1468
+END
+ENDREP
+id: 0.0.r31/1726
+type: dir
+pred: 0.0.r30/1567
+count: 31
+text: 31 1610 103 103 ff4adefa7aebbfd4de8343540db07bb7
+cpath: /
+copyroot: 0 /
+
+_2.0.t30-v add-dir false false /trunk/lib/Framework
+
+_4.0.t30-v add-file true false /trunk/lib/Framework/FrameworkLib1.dll
+
+_6.0.t30-v add-file true false /trunk/lib/Framework/FrameworkLib2.dll
+
+_7.0.t30-v add-file true false /trunk/lib/Framework/FrameworkLib3.dll
+
+
+1726 1861

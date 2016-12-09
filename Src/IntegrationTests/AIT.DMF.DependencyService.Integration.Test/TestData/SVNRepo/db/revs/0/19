@@ -1,0 +1,64 @@
+PLAIN
+K 10
+ComponentA
+V 18
+dir 2-18.0.r18/945
+END
+ENDREP
+id: q-2.0.r19/57
+type: dir
+pred: q-2.0.r18/1223
+count: 5
+text: 19 0 44 44 3b6dacd0770bf62cb5a1eda3c1e17c40
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r17/1023
+K 3
+src
+V 16
+dir q-2.0.r19/57
+END
+ENDREP
+id: 3-1.0.r19/324
+type: dir
+pred: 3-1.0.r18/1498
+count: 18
+text: 19 245 66 66 c83aa4258088df6e2e861715ba499bea
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 17
+dir 3-1.0.r19/324
+END
+ENDREP
+id: 0.0.r19/577
+type: dir
+pred: 0.0.r18/1754
+count: 19
+text: 19 464 100 100 e16b915e525c99c25af6a755df34eea4
+cpath: /
+copyroot: 0 /
+
+r-2.0.r2/3106 delete-file false false /trunk/src/MyCode.cs
+
+2-11.0.r11/83 delete-file false false /trunk/src/component.targets
+
+
+577 710

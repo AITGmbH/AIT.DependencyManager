@@ -1,0 +1,3 @@
+<SchemaCatalog xmlns="http://schemas.microsoft.com/xsd/catalog">
+  <Schema href="%InstallRoot%/xml/schemas/AITDependency.xsd" targetNamespace="http://schemas.aitgmbh.de/DependencyManager/2011/11" />
+</SchemaCatalog>

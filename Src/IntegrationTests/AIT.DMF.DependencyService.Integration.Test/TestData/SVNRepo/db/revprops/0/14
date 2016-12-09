@@ -1,0 +1,13 @@
+K 10
+svn:author
+V 3
+CHS
+K 8
+svn:date
+V 27
+2015-04-20T13:54:17.226678Z
+K 7
+svn:log
+V 107
+Added minimum content for valid component.targets file; except version 3.0 at ComponentA/3.0 for unit test 
+END

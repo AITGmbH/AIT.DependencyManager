@@ -1,0 +1,14 @@
+(C) 2012 AIT GmbH & Co. KG
+
+IntelliSense Support
+====================
+
+1. Open in the following directory in explorer:
+ -  C:\Program Files (x86)\Microsoft Visual Studio 10.0\Xml\Schemas (For Windows 64-bit (x64) installations)
+ -  C:\Program Files\Microsoft Visual Studio 10.0\Xml\Schemas (For Windows 32-bit (x86) installations)
+2. Place the following files in this directory:
+ a) AITDependency.xsd (Schema)
+ b) AITDependencySchemaCatalog.xml (Catalog)
+3. Restart Visual Studio
+
+IntelliSense support for adding dependencies is now enabled, when editing a dependency definition file!

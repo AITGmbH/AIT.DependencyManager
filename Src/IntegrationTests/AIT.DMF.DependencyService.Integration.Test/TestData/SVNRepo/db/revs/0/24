@@ -1,0 +1,84 @@
+id: 2-24.0-22.r24/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 23-n/_4
+cpath: /tags/ComponentA_1.0/Class4.cs
+copyroot: 22 /tags/ComponentA_1.0
+
+PLAIN
+K 9
+Class1.cs
+V 17
+file 4-18.0.r18/0
+K 9
+Class2.cs
+V 19
+file 6-18.0.r18/187
+K 9
+Class3.cs
+V 19
+file 7-18.0.r18/376
+K 9
+Class4.cs
+V 20
+file 2-24.0-22.r24/0
+K 7
+Logging
+V 18
+dir 3-20.0.r20/262
+K 17
+component.targets
+V 19
+file 8-18.0.r18/565
+END
+ENDREP
+id: 2-18.0-22.r24/465
+type: dir
+pred: 2-18.0-22.r22/0
+count: 3
+text: 24 209 243 243 c884c7220d4b148bf938672594f3b641
+cpath: /tags/ComponentA_1.0
+copyroot: 22 /tags/ComponentA_1.0
+
+PLAIN
+K 14
+ComponentA_1.0
+V 21
+dir 2-18.0-22.r24/465
+END
+ENDREP
+id: 2-1.0.r24/709
+type: dir
+pred: 2-1.0.r23/62
+count: 4
+text: 24 645 51 51 3e233f6db1b6f01915f4603690e7d1f1
+cpath: /tags
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r24/709
+K 5
+trunk
+V 18
+dir 3-1.0.r20/1103
+END
+ENDREP
+id: 0.0.r24/961
+type: dir
+pred: 0.0.r23/311
+count: 24
+text: 24 845 103 103 c920a8370a08d35d8e66bcb0734d970e
+cpath: /
+copyroot: 0 /
+
+_2.0-22.t23-n add-file true false /tags/ComponentA_1.0/Class4.cs
+
+
+961 1093

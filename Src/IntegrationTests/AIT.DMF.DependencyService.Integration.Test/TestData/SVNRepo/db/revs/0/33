@@ -1,0 +1,87 @@
+PLAIN
+K 13
+svn:externals
+V 160
+file:///C:/TFS_WS/AIT.DependencyManagement/SVN/Src/Plugins/Downloader/AIT.DMF.Plugins.Downloader.Subversion.Test/Resources/SVNRepo/trunk/lib/Framework External
+
+END
+ENDREP
+id: 2-18.0.r33/203
+type: dir
+pred: 2-18.0.r32/200
+count: 5
+text: 30 473 240 240 e57d9229b0738119862e40c0085338ba
+props: 33 0 190 190 6b7fce0fe164c4bc878f7936104dae08
+cpath: /trunk/src/ComponentA
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 18
+dir 2-18.0.r33/203
+K 14
+ComponentEmpty
+V 18
+dir 2-25.0.r25/262
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-26.0.r26/0
+END
+ENDREP
+id: q-2.0.r33/564
+type: dir
+pred: q-2.0.r32/561
+count: 12
+text: 33 413 138 138 27b8272b482ab04fab892c2069eb8d3a
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r31/1240
+K 3
+src
+V 17
+dir q-2.0.r33/564
+END
+ENDREP
+id: 3-1.0.r33/837
+type: dir
+pred: 3-1.0.r32/835
+count: 26
+text: 33 757 67 67 51f70c38efb2cb4a302f143c1572baf7
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 17
+dir 3-1.0.r33/837
+END
+ENDREP
+id: 0.0.r33/1091
+type: dir
+pred: 0.0.r32/1090
+count: 33
+text: 33 976 102 102 340df8dfc3323c66ec166b13ad2598d8
+cpath: /
+copyroot: 0 /
+
+2-18.0.t32-x modify-dir false true /trunk/src/ComponentA
+
+
+1091 1225

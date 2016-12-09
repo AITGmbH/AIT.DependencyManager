@@ -1,0 +1,13 @@
+K 10
+svn:author
+V 20
+christian.schlag.ext
+K 8
+svn:date
+V 27
+2015-05-07T14:10:02.859349Z
+K 7
+svn:log
+V 48
+Modified svn:external entry to use relative path
+END

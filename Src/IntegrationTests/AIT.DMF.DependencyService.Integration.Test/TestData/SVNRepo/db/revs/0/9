@@ -1,0 +1,98 @@
+id: 4-7.0-9.r9/0
+type: file
+pred: 4-7.0.r7/0
+count: 1
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 6-6/_6
+cpath: /trunk/lib/ComponentEmtpy/component.targets
+copyfrom: 8 /trunk/lib/ComponentEmtpy/componen.targets
+
+PLAIN
+K 17
+component.targets
+V 17
+file 4-7.0-9.r9/0
+END
+ENDREP
+id: 2-7.0.r9/319
+type: dir
+pred: 2-7.0.r7/255
+count: 1
+text: 9 256 50 50 92994861e08c53a789c74576298c34ec
+cpath: /trunk/lib/ComponentEmtpy
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r8/1030
+K 10
+ComponentB
+V 17
+dir f-2.0.r8/2698
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 16
+dir 2-4.0.r4/271
+END
+ENDREP
+id: 1-2.0.r9/656
+type: dir
+pred: 1-2.0.r8/3034
+count: 5
+text: 9 473 170 170 880ec845f46041152b140d63204674c9
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 16
+dir 1-2.0.r9/656
+K 3
+src
+V 15
+dir q-2.0.r6/17
+END
+ENDREP
+id: 3-1.0.r9/874
+type: dir
+pred: 3-1.0.r8/3254
+count: 8
+text: 9 798 63 63 1113fe9b29a9fdc1a99eab2653ca4816
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 16
+dir 3-1.0.r9/874
+END
+ENDREP
+id: 0.0.r9/1122
+type: dir
+pred: 0.0.r8/3504
+count: 9
+text: 9 1010 99 99 5dd3607027fd221590340901bce34e97
+cpath: /
+copyroot: 0 /
+
+4-7.0.r7/0 delete-file false false /trunk/lib/ComponentEmtpy/componen.targets
+
+4-7._0.t8-8 add-file false false /trunk/lib/ComponentEmtpy/component.targets
+8 /trunk/lib/ComponentEmtpy/componen.targets
+
+1122 1251

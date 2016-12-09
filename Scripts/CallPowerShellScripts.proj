@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+      <PowerShellExe Condition=" '$(PowerShellExe)'=='' ">c:\windows\System32\WindowsPowerShell\v1.0\powershell.exe</PowerShellExe>
+    </PropertyGroup>
+
+    <Target Name="VSExtensionVersioning">
+	    <Message Text="Starting Visual Studio Extension versioning" />
+			
+		  <Exec Command="$(PowerShellExe) -executionpolicy bypass -File $(MSBuildThisFileDirectory)VSExtensionVersioning.ps1 -SourcesDirectory $(SourcesDirectory) -BuildNumber $(BuildNumber)" />
+		  
+		  <Message Text="Finished Visual Studio Extension versioning."/>
+  </Target>
+
+  <Target Name="AssemblyVersioning">
+    <Message Text="Starting Visual Studio Extension versioning" />
+
+    <Exec Command="$(PowerShellExe) -executionpolicy bypass -File $(MSBuildThisFileDirectory)AssemblyVersioning.ps1 -SourcesDirectory $(SourcesDirectory) -BuildNumber $(BuildNumber)" />
+
+    <Message Text="Finished Visual Studio Extension versioning."/>
+  </Target>
+
+  <Target Name="RestoreNugetPackages">
+    <Exec Command="&quot;$(MSBuildProjectDirectory)\..\Lib\Tools\nuget.exe&quot; restore &quot;$(MSBuildProjectDirectory)\..\Src\AIT.DMF.sln&quot;" />
+  </Target>
+</Project>

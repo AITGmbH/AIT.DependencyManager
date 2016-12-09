@@ -1,0 +1,91 @@
+PLAIN
+K 13
+svn:externals
+V 24
+../../lib/Common Common
+
+END
+ENDREP
+id: 2-36.0.r46/66
+type: dir
+pred: 2-36.0.r45/322
+count: 5
+text: 45 213 96 96 1af9342e6c04addbb6a075feffc61fa0
+props: 46 0 53 0 2dd60e8454423418e4a934425390ab2d
+cpath: /trunk/src/ComponentWithExternals
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 16
+dir 2-18.0.r35/0
+K 14
+ComponentEmpty
+V 18
+dir 2-25.0.r25/262
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-26.0.r26/0
+K 22
+ComponentWithExternals
+V 17
+dir 2-36.0.r46/66
+END
+ENDREP
+id: q-2.0.r46/482
+type: dir
+pred: q-2.0.r45/743
+count: 19
+text: 46 282 187 0 b4de80fe67a88cb38a34f62435ed7f0e
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r44/1261
+K 3
+src
+V 17
+dir q-2.0.r46/482
+END
+ENDREP
+id: 3-1.0.r46/753
+type: dir
+pred: 3-1.0.r45/1016
+count: 39
+text: 46 673 67 0 0d931e9dbe18a8e3fe8983e635dcb42d
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 17
+dir 3-1.0.r46/753
+END
+ENDREP
+id: 0.0.r46/1007
+type: dir
+pred: 0.0.r45/1273
+count: 46
+text: 46 892 102 0 146d5a3ee8b53e8aba80b31516f9844f
+cpath: /
+copyroot: 0 /
+
+2-36.0.t45-1a modify-dir false true /trunk/src/ComponentWithExternals
+
+
+1007 1139

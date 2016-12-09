@@ -1,0 +1,54 @@
+id: 2-18.0-22.r22/0
+type: dir
+pred: 2-18.0.r20/620
+count: 2
+text: 20 404 203 203 ff3b7bb10e5eda8afa95e87383e238c2
+cpath: /tags/ComponentA_1.0
+copyfrom: 20 /trunk/src/ComponentA
+
+PLAIN
+K 10
+ComponentA
+V 19
+dir 2-18.0-21.r21/0
+K 14
+ComponentA_1.0
+V 19
+dir 2-18.0-22.r22/0
+END
+ENDREP
+id: 2-1.0.r22/281
+type: dir
+pred: 2-1.0.r21/232
+count: 2
+text: 22 178 90 90 faa67dce899feafe5eb69289608ac38b
+cpath: /tags
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r22/281
+K 5
+trunk
+V 18
+dir 3-1.0.r20/1103
+END
+ENDREP
+id: 0.0.r22/534
+type: dir
+pred: 0.0.r21/483
+count: 22
+text: 22 418 103 103 98ef91153706529c797057359e22048b
+cpath: /
+copyroot: 0 /
+
+2-18._0.t21-l add-dir false false /tags/ComponentA_1.0
+20 /trunk/src/ComponentA
+
+534 666

@@ -1,0 +1,88 @@
+id: 2-16.0.r16/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 15-f/_4
+cpath: /trunk/lib/empty.file
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r15/904
+K 10
+ComponentB
+V 18
+dir f-2.0.r14/3118
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-12.0.r12/0
+K 10
+empty.file
+V 17
+file 2-16.0.r16/0
+END
+ENDREP
+id: 1-2.0.r16/451
+type: dir
+pred: 1-2.0.r15/1293
+count: 11
+text: 16 177 261 261 e48d7384bd52a772e8e92a309e490fa2
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r16/451
+K 3
+src
+V 17
+dir q-2.0.r11/373
+END
+ENDREP
+id: 3-1.0.r16/676
+type: dir
+pred: 3-1.0.r15/1521
+count: 15
+text: 16 597 66 66 f2c447a5f5717e691b66d5a028918532
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 17
+dir 3-1.0.r16/676
+END
+ENDREP
+id: 0.0.r16/929
+type: dir
+pred: 0.0.r15/1777
+count: 16
+text: 16 816 100 100 a1966dcf1ff5e59d19beea9b4b2f3d82
+cpath: /
+copyroot: 0 /
+
+_2.0.t15-f add-file true false /trunk/lib/empty.file
+
+
+929 1062

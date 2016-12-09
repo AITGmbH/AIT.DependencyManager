@@ -1,0 +1,289 @@
+DELTA
+SVNENDREP
+id: 7-2.0.r2/17
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 1-1/_t
+cpath: /trunk/lib/ComponentA/1.0/component.targets
+copyroot: 0 /
+
+PLAIN
+K 17
+component.targets
+V 16
+file 7-2.0.r2/17
+END
+ENDREP
+id: 5-2.0.r2/276
+type: dir
+count: 0
+text: 2 214 49 49 bb891b4dcbbf825e38bb71ad50a4d606
+cpath: /trunk/lib/ComponentA/1.0
+copyroot: 0 /
+
+id: a-2.0.r2/411
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 1-1/_u
+cpath: /trunk/lib/ComponentA/2.0/component.targets
+copyroot: 0 /
+
+PLAIN
+K 17
+component.targets
+V 17
+file a-2.0.r2/411
+END
+ENDREP
+id: 9-2.0.r2/672
+type: dir
+count: 0
+text: 2 609 50 50 b76629d3ae96a6e13e427704e0357429
+cpath: /trunk/lib/ComponentA/2.0
+copyroot: 0 /
+
+id: d-2.0.r2/807
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 1-1/_v
+cpath: /trunk/lib/ComponentA/3.0/component.targets
+copyroot: 0 /
+
+PLAIN
+K 17
+component.targets
+V 17
+file d-2.0.r2/807
+END
+ENDREP
+id: c-2.0.r2/1068
+type: dir
+count: 0
+text: 2 1005 50 50 ba7136656fdace1d55cec99d6f8c5572
+cpath: /trunk/lib/ComponentA/3.0
+copyroot: 0 /
+
+PLAIN
+K 3
+1.0
+V 16
+dir 5-2.0.r2/276
+K 3
+2.0
+V 16
+dir 9-2.0.r2/672
+K 3
+3.0
+V 17
+dir c-2.0.r2/1068
+END
+ENDREP
+id: 3-2.0.r2/1313
+type: dir
+count: 0
+text: 2 1205 95 95 b29a3df3f04e32c36d262353ed61ee75
+cpath: /trunk/lib/ComponentA
+copyroot: 0 /
+
+id: i-2.0.r2/1446
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 1-1/_w
+cpath: /trunk/lib/ComponentB/7.0/component.targets
+copyroot: 0 /
+
+PLAIN
+K 17
+component.targets
+V 18
+file i-2.0.r2/1446
+END
+ENDREP
+id: g-2.0.r2/1709
+type: dir
+count: 0
+text: 2 1645 51 51 70d4713f5587132a143308d6c75b842a
+cpath: /trunk/lib/ComponentB/7.0
+copyroot: 0 /
+
+id: l-2.0.r2/1846
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 1-1/_x
+cpath: /trunk/lib/ComponentB/8.0/component.targets
+copyroot: 0 /
+
+PLAIN
+K 17
+component.targets
+V 18
+file l-2.0.r2/1846
+END
+ENDREP
+id: k-2.0.r2/2109
+type: dir
+count: 0
+text: 2 2045 51 51 7aafc2bd2cfc910fece657caed43ceda
+cpath: /trunk/lib/ComponentB/8.0
+copyroot: 0 /
+
+id: o-2.0.r2/2246
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 1-1/_y
+cpath: /trunk/lib/ComponentB/9.0/component.targets
+copyroot: 0 /
+
+PLAIN
+K 17
+component.targets
+V 18
+file o-2.0.r2/2246
+END
+ENDREP
+id: n-2.0.r2/2509
+type: dir
+count: 0
+text: 2 2445 51 51 88f115ec4e5423e3e8859ea2d4166a6a
+cpath: /trunk/lib/ComponentB/9.0
+copyroot: 0 /
+
+PLAIN
+K 3
+7.0
+V 17
+dir g-2.0.r2/1709
+K 3
+8.0
+V 17
+dir k-2.0.r2/2109
+K 3
+9.0
+V 17
+dir n-2.0.r2/2509
+END
+ENDREP
+id: f-2.0.r2/2756
+type: dir
+count: 0
+text: 2 2646 97 97 2b52245d8a3fdc4451dbe0eaef26ebc3
+cpath: /trunk/lib/ComponentB
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r2/1313
+K 10
+ComponentB
+V 17
+dir f-2.0.r2/2756
+END
+ENDREP
+id: 1-2.0.r2/2984
+type: dir
+count: 0
+text: 2 2889 82 82 441b72e99af72bc2fadafd65226e7d02
+cpath: /trunk/lib
+copyroot: 0 /
+
+id: r-2.0.r2/3106
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 1-1/_z
+cpath: /trunk/src/MyCode.cs
+copyroot: 0 /
+
+PLAIN
+K 9
+MyCode.cs
+V 18
+file r-2.0.r2/3106
+END
+ENDREP
+id: q-2.0.r2/3337
+type: dir
+count: 0
+text: 2 3282 42 42 a80f74fa74188afcfe9d5e4579f46eb7
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r2/2984
+K 3
+src
+V 17
+dir q-2.0.r2/3337
+END
+ENDREP
+id: 3-1.0.r2/3538
+type: dir
+pred: 3-1.0.r1/129
+count: 1
+text: 2 3459 66 66 5f313fced6281d155161faa3ee1ca956
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 17
+dir 3-1.0.r2/3538
+END
+ENDREP
+id: 0.0.r2/3788
+type: dir
+pred: 0.0.r1/306
+count: 2
+text: 2 3675 100 100 035c37436e2b7bfb7b754db450125b68
+cpath: /
+copyroot: 0 /
+
+_1.0.t1-1 add-dir false false /trunk/lib
+
+_3.0.t1-1 add-dir false false /trunk/lib/ComponentA
+
+_5.0.t1-1 add-dir false false /trunk/lib/ComponentA/1.0
+
+_7.0.t1-1 add-file true false /trunk/lib/ComponentA/1.0/component.targets
+
+_9.0.t1-1 add-dir false false /trunk/lib/ComponentA/2.0
+
+_a.0.t1-1 add-file true false /trunk/lib/ComponentA/2.0/component.targets
+
+_c.0.t1-1 add-dir false false /trunk/lib/ComponentA/3.0
+
+_d.0.t1-1 add-file true false /trunk/lib/ComponentA/3.0/component.targets
+
+_f.0.t1-1 add-dir false false /trunk/lib/ComponentB
+
+_g.0.t1-1 add-dir false false /trunk/lib/ComponentB/7.0
+
+_i.0.t1-1 add-file true false /trunk/lib/ComponentB/7.0/component.targets
+
+_k.0.t1-1 add-dir false false /trunk/lib/ComponentB/8.0
+
+_l.0.t1-1 add-file true false /trunk/lib/ComponentB/8.0/component.targets
+
+_n.0.t1-1 add-dir false false /trunk/lib/ComponentB/9.0
+
+_o.0.t1-1 add-file true false /trunk/lib/ComponentB/9.0/component.targets
+
+_q.0.t1-1 add-dir false false /trunk/src
+
+_r.0.t1-1 add-file true false /trunk/src/MyCode.cs
+
+
+3788 3918

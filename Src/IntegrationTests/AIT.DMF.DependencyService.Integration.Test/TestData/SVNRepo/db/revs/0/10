@@ -1,0 +1,99 @@
+id: 3-10.0.r10/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 9-9/_5
+cpath: /trunk/lib/ComponentExternals/component.targets
+copyroot: 0 /
+
+PLAIN
+K 22
+ComponentExternals.dll
+V 15
+file 4-4.0.r4/0
+K 17
+component.targets
+V 17
+file 3-10.0.r10/0
+END
+ENDREP
+id: 2-4.0.r10/314
+type: dir
+pred: 2-4.0.r4/271
+count: 1
+text: 10 202 99 99 451bfc910d1f99621e065aec758b5e26
+cpath: /trunk/lib/ComponentExternals
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 17
+dir 3-2.0.r8/1030
+K 10
+ComponentB
+V 17
+dir f-2.0.r8/2698
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+END
+ENDREP
+id: 1-2.0.r10/658
+type: dir
+pred: 1-2.0.r9/656
+count: 6
+text: 10 474 171 171 1d6653e9d3f4938a0d6b14a8c3bae046
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 17
+dir 1-2.0.r10/658
+K 3
+src
+V 15
+dir q-2.0.r6/17
+END
+ENDREP
+id: 3-1.0.r10/878
+type: dir
+pred: 3-1.0.r9/874
+count: 9
+text: 10 801 64 64 023b236209f7f13b1b11cec00d7e0340
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 17
+dir 3-1.0.r10/878
+END
+ENDREP
+id: 0.0.r10/1128
+type: dir
+pred: 0.0.r9/1122
+count: 10
+text: 10 1015 100 100 33a355417645cc6b8a2748c7173d6db7
+cpath: /
+copyroot: 0 /
+
+_3.0.t9-9 add-file true false /trunk/lib/ComponentExternals/component.targets
+
+
+1128 1262

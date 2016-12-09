@@ -1,0 +1,138 @@
+id: 4-37.0.r37/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 36-11/_8
+cpath: /trunk/lib/Common/Common1.cs
+copyroot: 0 /
+
+id: 6-37.0.r37/185
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 36-11/_9
+cpath: /trunk/lib/Common/Common2.cs
+copyroot: 0 /
+
+id: 7-37.0.r37/372
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 36-11/_a
+cpath: /trunk/lib/Common/Common3.cs
+copyroot: 0 /
+
+PLAIN
+K 10
+Common1.cs
+V 17
+file 4-37.0.r37/0
+K 10
+Common2.cs
+V 19
+file 6-37.0.r37/185
+K 10
+Common3.cs
+V 19
+file 7-37.0.r37/372
+END
+ENDREP
+id: 2-37.0.r37/697
+type: dir
+count: 0
+text: 37 559 125 125 ccfa30d7cbd427ca1b52fb88a79820a5
+cpath: /trunk/lib/Common
+copyroot: 0 /
+
+PLAIN
+K 6
+Common
+V 18
+dir 2-37.0.r37/697
+K 10
+ComponentA
+V 17
+dir 3-2.0.r17/355
+K 10
+ComponentB
+V 18
+dir f-2.0.r14/3118
+K 14
+ComponentEmtpy
+V 16
+dir 2-7.0.r9/319
+K 18
+ComponentExternals
+V 17
+dir 2-4.0.r10/314
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-12.0.r12/0
+K 17
+component.targets
+V 19
+file 5-17.0.r17/510
+K 10
+empty.file
+V 17
+file 2-16.0.r16/0
+END
+ENDREP
+id: 1-2.0.r37/1186
+type: dir
+pred: 1-2.0.r34/322
+count: 15
+text: 37 829 344 344 7b5fb91238c442c852c960a141329acc
+cpath: /trunk/lib
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r37/1186
+K 3
+src
+V 17
+dir q-2.0.r36/616
+END
+ENDREP
+id: 3-1.0.r37/1412
+type: dir
+pred: 3-1.0.r36/888
+count: 30
+text: 37 1332 67 67 3de8710270f3e8a5ce4af39ea7a53e3f
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 18
+dir 3-1.0.r37/1412
+END
+ENDREP
+id: 0.0.r37/1669
+type: dir
+pred: 0.0.r36/1142
+count: 37
+text: 37 1553 103 103 dfcc1969de7324b74c06ab674c9a54bf
+cpath: /
+copyroot: 0 /
+
+_2.0.t36-11 add-dir false false /trunk/lib/Common
+
+_4.0.t36-11 add-file true false /trunk/lib/Common/Common1.cs
+
+_6.0.t36-11 add-file true false /trunk/lib/Common/Common2.cs
+
+_7.0.t36-11 add-file true false /trunk/lib/Common/Common3.cs
+
+
+1669 1804

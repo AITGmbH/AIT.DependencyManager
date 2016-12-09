@@ -1,0 +1,399 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff38\deff0\stshfdbch0\stshfloch31506\stshfhich31506\stshfbi31506\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}
+{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Bookshelf Symbol 3};}
+{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f11\fbidi \fmodern\fcharset128\fprq1{\*\panose 02020609040205080304}MS Mincho{\*\falt ?l?r ??\'81\'66c};}
+{\f13\fbidi \fnil\fcharset134\fprq2{\*\panose 02010600030101010101}SimSun{\*\falt ???????????????????????????????};}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}
+{\f38\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma{\*\falt ?? ??};}{\f39\fbidi \fnil\fcharset134\fprq2{\*\panose 00000000000000000000}@SimSun{\*\falt @Arial Unicode MS};}
+{\f40\fbidi \fmodern\fcharset128\fprq1{\*\panose 02020609040205080304}@MS Mincho;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}{\fhimajor\f31502\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}{\f42\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}
+{\f43\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}{\f45\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\f46\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\f47\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\f48\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}{\f49\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}
+{\f50\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times};}{\f52\fbidi \fswiss\fcharset238\fprq2 Arial CE;}{\f53\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}{\f55\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}
+{\f56\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\f57\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f58\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}{\f59\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}
+{\f60\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f62\fbidi \fmodern\fcharset238\fprq1 Courier New CE;}{\f63\fbidi \fmodern\fcharset204\fprq1 Courier New Cyr;}{\f65\fbidi \fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f66\fbidi \fmodern\fcharset162\fprq1 Courier New Tur;}{\f67\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f68\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f69\fbidi \fmodern\fcharset186\fprq1 Courier New Baltic;}
+{\f70\fbidi \fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f154\fbidi \fmodern\fcharset0\fprq1 MS Mincho Western{\*\falt ?l?r ??\'81\'66c};}{\f152\fbidi \fmodern\fcharset238\fprq1 MS Mincho CE{\*\falt ?l?r ??\'81\'66c};}
+{\f153\fbidi \fmodern\fcharset204\fprq1 MS Mincho Cyr{\*\falt ?l?r ??\'81\'66c};}{\f155\fbidi \fmodern\fcharset161\fprq1 MS Mincho Greek{\*\falt ?l?r ??\'81\'66c};}{\f156\fbidi \fmodern\fcharset162\fprq1 MS Mincho Tur{\*\falt ?l?r ??\'81\'66c};}
+{\f159\fbidi \fmodern\fcharset186\fprq1 MS Mincho Baltic{\*\falt ?l?r ??\'81\'66c};}{\f174\fbidi \fnil\fcharset0\fprq2 SimSun Western{\*\falt ???????????????????????????????};}{\f382\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}
+{\f383\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}{\f385\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f386\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f389\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}
+{\f422\fbidi \fswiss\fcharset238\fprq2 Tahoma CE{\*\falt ?? ??};}{\f423\fbidi \fswiss\fcharset204\fprq2 Tahoma Cyr{\*\falt ?? ??};}{\f425\fbidi \fswiss\fcharset161\fprq2 Tahoma Greek{\*\falt ?? ??};}
+{\f426\fbidi \fswiss\fcharset162\fprq2 Tahoma Tur{\*\falt ?? ??};}{\f427\fbidi \fswiss\fcharset177\fprq2 Tahoma (Hebrew){\*\falt ?? ??};}{\f428\fbidi \fswiss\fcharset178\fprq2 Tahoma (Arabic){\*\falt ?? ??};}
+{\f429\fbidi \fswiss\fcharset186\fprq2 Tahoma Baltic{\*\falt ?? ??};}{\f430\fbidi \fswiss\fcharset163\fprq2 Tahoma (Vietnamese){\*\falt ?? ??};}{\f431\fbidi \fswiss\fcharset222\fprq2 Tahoma (Thai){\*\falt ?? ??};}
+{\f434\fbidi \fnil\fcharset0\fprq2 @SimSun Western{\*\falt @Arial Unicode MS};}{\f444\fbidi \fmodern\fcharset0\fprq1 @MS Mincho Western;}{\f442\fbidi \fmodern\fcharset238\fprq1 @MS Mincho CE;}{\f443\fbidi \fmodern\fcharset204\fprq1 @MS Mincho Cyr;}
+{\f445\fbidi \fmodern\fcharset161\fprq1 @MS Mincho Greek;}{\f446\fbidi \fmodern\fcharset162\fprq1 @MS Mincho Tur;}{\f449\fbidi \fmodern\fcharset186\fprq1 @MS Mincho Baltic;}
+{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}
+{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}
+{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times};}
+{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}
+{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}
+{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times};}{\fhimajor\f31528\fbidi \froman\fcharset238\fprq2 Cambria CE;}
+{\fhimajor\f31529\fbidi \froman\fcharset204\fprq2 Cambria Cyr;}{\fhimajor\f31531\fbidi \froman\fcharset161\fprq2 Cambria Greek;}{\fhimajor\f31532\fbidi \froman\fcharset162\fprq2 Cambria Tur;}
+{\fhimajor\f31535\fbidi \froman\fcharset186\fprq2 Cambria Baltic;}{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}
+{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}
+{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times};}
+{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}
+{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}
+{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times};}
+{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}
+{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}
+{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times};}{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}
+{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times};}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\caccentone\ctint255\cshade127\red36\green63\blue96;\ctextone\ctint255\cshade255\red0\green0\blue0;}{\*\defchp \f31506\fs22 }{\*\defpap \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 
+\f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 \styrsid5859866 Normal;}{\s1\ql \li0\ri0\widctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 
+\f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink15 \sqformat \styrsid5859866 heading 1;}{\s2\ql \li0\ri0\widctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 
+\f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink16 \sqformat \styrsid5859866 heading 2;}{\s3\ql \li0\ri0\widctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 
+\f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink17 \sqformat \styrsid5859866 heading 3;}{\s5\ql \li0\ri0\sb200\keep\keepn\widctlpar\wrapdefault\faauto\outlinelevel4\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 
+\ltrch\fcs0 \fs24\cf17\lang1033\langfe1033\loch\f31502\hich\af31502\dbch\af31501\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink18 \ssemihidden \sunhideused \sqformat \spriority9 \styrsid9523317 heading 5;}{\*\cs10 \additive 
+\ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31506\afs22\alang1025 \ltrch\fcs0 \f31506\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused Normal Table;}{\*\cs15 \additive 
+\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24 \sbasedon10 \slink1 \slocked \styrsid5859866 Heading 1 Char;}{\*\cs16 \additive \rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24 \sbasedon10 \slink2 \slocked \styrsid5859866 Heading 2 Char;}{\*\cs17 \additive 
+\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24 \sbasedon10 \slink3 \slocked \styrsid5859866 Heading 3 Char;}{\*\cs18 \additive \rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\cf17\loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink5 \slocked \styrsid9523317 
+Heading 5 Char;}{\*\cs19 \additive \rtlch\fcs1 \af0\afs16 \ltrch\fcs0 \fs16 \sbasedon10 \ssemihidden \sunhideused \styrsid11423639 annotation reference;}{\s20\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs20\alang1025 
+\ltrch\fcs0 \f38\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 \slink21 \sunhideused \styrsid11423639 annotation text;}{\*\cs21 \additive \rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \f38\fs20 
+\sbasedon10 \slink20 \slocked \styrsid11423639 Comment Text Char;}{\s22\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af38\afs20\alang1025 \ltrch\fcs0 \b\f38\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon20 \snext20 \slink23 \ssemihidden \sunhideused \styrsid11423639 annotation subject;}{\*\cs23 \additive \rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20 \sbasedon21 \slink22 \slocked \ssemihidden \styrsid11423639 Comment Subject Char;}{
+\s24\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs16\alang1025 \ltrch\fcs0 \f38\fs16\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext24 \slink25 \ssemihidden \sunhideused \styrsid11423639 Balloon Text;}
+{\*\cs25 \additive \rtlch\fcs1 \af38\afs16 \ltrch\fcs0 \f38\fs16 \sbasedon10 \slink24 \slocked \ssemihidden \styrsid11423639 Balloon Text Char;}{\s26\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 
+\af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext26 \slink27 \sunhideused \styrsid14243909 header;}{\*\cs27 \additive \rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24 
+\sbasedon10 \slink26 \slocked \styrsid14243909 Header Char;}{\s28\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext28 \slink29 \sunhideused \styrsid14243909 footer;}{\*\cs29 \additive \rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24 \sbasedon10 \slink28 \slocked \styrsid14243909 Footer Char;}{
+\s30\ql \li720\ri0\widctlpar\wrapdefault\faauto\rin0\lin720\itap0\contextualspace \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext30 \sqformat \spriority34 \styrsid16214203 
+List Paragraph;}{\s31\ql \fi-358\li1435\ri0\sb120\sa120\widctlpar\jclisttab\tx1437\wrapdefault\aspalpha\aspnum\faauto\ls2\adjustright\rin0\lin1435\itap0 \rtlch\fcs1 \af38\afs19\alang1025 \ltrch\fcs0 
+\fs19\lang1033\langfe1033\loch\f38\hich\af38\dbch\af11\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext31 \styrsid9523317 Bullet 4;}{\s32\ql \fi-363\li720\ri0\sb120\sa120\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af38\afs19\alang1025 \ltrch\fcs0 \fs19\lang1033\langfe1033\loch\f38\hich\af38\dbch\af11\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext32 \styrsid9523317 
+Bullet 2;}}{\*\listtable{\list\listtemplateid1192263752\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 
+\fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2520\lin2520 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6840\lin6840 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}
+\f10\fbias0 \fi-360\li7560\lin7560 }{\listname ;}\listid346054806}{\list\listtemplateid789093748\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid-317712510
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \s32\fi-363\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid477573462}{\list\listtemplateid303218272\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid612407812\'01\u-3913 ?;}{\levelnumbers;}\f3\cf18\fbias0 \s31\fi-358\li1435\jclisttab\tx1437\lin1435 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 
+\fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listname ;}\listid1559511898}}{\*\listoverridetable{\listoverride\listid346054806\listoverridecount0\ls1}{\listoverride\listid1559511898\listoverridecount0\ls2}{\listoverride\listid477573462\listoverridecount0\ls3}}
+{\*\rsidtbl \rsid16201\rsid140029\rsid528090\rsid601691\rsid732487\rsid745980\rsid1794683\rsid1970332\rsid2557967\rsid2643648\rsid2980629\rsid3412091\rsid3625122\rsid3738734\rsid3819256\rsid4072462\rsid4198523\rsid4210601\rsid5124515\rsid5181024
+\rsid5328004\rsid5334538\rsid5509537\rsid5838449\rsid5859866\rsid6115287\rsid6160604\rsid6182091\rsid6239912\rsid6375338\rsid6491913\rsid6493447\rsid6912367\rsid6976254\rsid7030256\rsid7098088\rsid8214068\rsid8943967\rsid8984997\rsid9005133\rsid9261091
+\rsid9523317\rsid9962518\rsid9967948\rsid10173407\rsid10637406\rsid10772512\rsid10775666\rsid11019489\rsid11423639\rsid11477311\rsid12129313\rsid12267170\rsid12596440\rsid12677780\rsid13002132\rsid13181948\rsid13270949\rsid13789878\rsid14175785
+\rsid14228134\rsid14243909\rsid14433545\rsid14641559\rsid15032451\rsid15212670\rsid15496033\rsid15553945\rsid15731617\rsid15808436\rsid16056902\rsid16073521\rsid16152124\rsid16214203\rsid16547173}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0
+\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\creatim\yr2011\mo10\dy20\hr8\min49}{\revtim\yr2011\mo10\dy24\hr11\min55}{\version1}{\edmins0}{\nofpages4}{\nofwords1406}{\nofchars8020}{\nofcharsws9408}{\vern49273}}
+{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont1\relyonvml0\donotembedlingdata0\grfdocevents0\validatexml1\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors1\noxlattoyen
+\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\formshade\horzdoc\dgmargin\dghspace180\dgvspace180\dghorigin1440\dgvorigin1440\dghshow1\dgvshow1
+\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\nobrkwrptbl\snaptogridincell\rempersonalinfo\allowfieldendsel
+\wrppunct\asianbrkrule\rsidroot5859866\newtblstyruls\nogrowautofit\remdttm\usenormstyforlist\noindnmbrts\felnbrelev\nocxsptable\indrlsweleven\noafcnsttbl\afelev\utinl\hwelev\spltpgpar\notcvasp\notbrkcnstfrctbl\notvatxbx\krnprsnet\cachedcolbal 
+\nouicompat \fet0{\*\wgrffmtfilter 2450}\nofeaturethrottle1\ilfomacatclnup0{\*\ftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid14243909 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 
+\f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 \ltrch\fcs0 \insrsid732487 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid14243909 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 \ltrch\fcs0 
+\insrsid732487 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid14243909 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 \ltrch\fcs0 
+\insrsid732487 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid14243909 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 \ltrch\fcs0 
+\insrsid732487 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\linex0\sectlinegrid360\sectdefaultcl\sectrsid9962518\sftnbj {\headerl \ltrpar \pard\plain \ltrpar\s26\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 
+\f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 \ltrch\fcs0 \insrsid14243909 
+\par }}{\headerr \ltrpar \pard\plain \ltrpar\s26\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 
+\ltrch\fcs0 \insrsid14243909 
+\par }}{\footerl \ltrpar \pard\plain \ltrpar\s28\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 
+\ltrch\fcs0 \insrsid14243909 
+\par }}{\footerr \ltrpar \pard\plain \ltrpar\s28\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 
+\ltrch\fcs0 \insrsid14243909 
+\par }}{\headerf \ltrpar \pard\plain \ltrpar\s26\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 
+\ltrch\fcs0 \insrsid14243909 
+\par }}{\footerf \ltrpar \pard\plain \ltrpar\s28\ql \li0\ri0\widctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38 
+\ltrch\fcs0 \insrsid14243909 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 \rtlch\fcs1 
+\af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 MICROSOFT SOFTWARE LICENSE TERMS
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa120\nowidctlpar\brdrb\brdrs\brdrw10\brsp20 \wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 MICROSOFT WINDOWS AZURE SOFTWARE DEVELOPMENT KIT}{\rtlch\fcs1 
+\ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid3738734 , AND FOR}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 
+\par }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid3738734 MICROSOFT WINDOWS AZURE LIBRARIES}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid15553945  FOR .NET}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid3738734 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 {\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you. Please read them. They apply to the software named above, which includes the media on
+ which you received it, if any. The terms also apply to any Microsoft
+\par }\pard \ltrpar\ql \fi-360\li360\ri0\sb120\sa120\nowidctlpar\tx360\wrapdefault\faauto\rin0\lin360\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 updates,
+
+\par }\pard \ltrpar\ql \fi-360\li360\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin360\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 supplements,
+
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 Internet-based services, and 
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 support services
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 {\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 for this software, unless other terms accompany those items. If so, those terms apply.}{
+\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid4210601 
+\par }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 By using the software, you accept these terms. If you do not accept them, do not use the software.
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa120\nowidctlpar\brdrt\brdrs\brdrw10\brsp20 \wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 
+If you comply with these license terms, you have the rights below.
+\par }\pard\plain \ltrpar\s1\ql \fi-357\li357\ri0\sb120\sa120\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin357\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 1.\tab INSTALLATION AND USE RIGHTS. }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 You may install and use any number of copies of the softwa
+re on your devices to design, develop and test your programs}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid4198523  for use with Windows Azure. }{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard \ltrpar\s1\ql \fi-357\li357\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin357\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 2.\tab ADDITIONAL LICENSING REQUIREMENTS AND/OR USE RIGHTS.
+
+\par }\pard\plain \ltrpar\s2\ql \fi-363\li720\ri0\sb120\sa120\nowidctlpar\tx720\wrapdefault\faauto\outlinelevel1\rin0\lin720\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid9261091 a}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 .\tab Distributable Code.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+ The software contains code that you are permitted to distribute in programs you develop if you comply with the terms below.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\s3\ql \fi-357\li1077\ri0\sb120\sa120\nowidctlpar\tx1080\wrapdefault\faauto\outlinelevel2\rin0\lin1077\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 i.\tab Right to Use and Distribute. The code and text files listed below are \'93Distributable Code.\'94}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\tx1437\wrapdefault\faauto\rin0\lin1435\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\ul\insrsid5859866 REDIST.TXT Files}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 . You may copy and distribute the object code form of }{
+\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid9523317 any }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 code listed in REDIST.TXT files.}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\ul\insrsid5859866 
+\par }\pard \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1435\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\ul\insrsid5859866 
+Sample Code}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 . You may modify, copy, and distribute the source and object code form of }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid528090 any }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 
+\fs20\insrsid5859866 code marked as \'93sample.\'94
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid7098088 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\ul\insrsid7098088\charrsid9523317 Binary Packages}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid7098088 .  }{\rtlch\fcs1 \ab\af38\afs20 
+\ltrch\fcs0 \fs20\insrsid7098088 The software }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \fs20\insrsid528090 may }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \fs20\insrsid7098088 produce \'93Binary Packages\'94 of code }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 
+\fs20\insrsid2643648 with}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \fs20\insrsid7098088  a \'93.cspkg\'94 extension that incorporate both your programs and Microsoft code.  }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid7098088 You may distribute }{
+\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid15496033 such Microsoft code }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid140029 only }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid15496033 in }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 
+\fs20\insrsid7098088 the }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid12267170 form of the }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid7098088 Binary Packages}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid12267170  }{\rtlch\fcs1 
+\af38\afs20 \ltrch\fcs0 \fs20\insrsid140029 as }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid12267170 produced by the software}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid7098088 .}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\ul\insrsid7098088 
+
+\par }\pard \ltrpar\ql \li1080\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1080\itap0\pararsid15731617 {\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\ul\insrsid5859866 Third Party Distribution}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+. You may permit distributors of your programs to copy and distribute the Distributable Code as part of those programs.}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\ul\insrsid5859866 
+\par }\pard\plain \ltrpar\s3\ql \fi-357\li1077\ri0\sb120\sa120\nowidctlpar\tx1077\wrapdefault\faauto\outlinelevel2\rin0\lin1077\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 ii.\tab Distribution Requirements. For any Distributable Code you distribute, you must}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\tx1437\wrapdefault\faauto\rin0\lin1435\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 add significant primary functionality to it in your programs;
+\par }\pard \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1435\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+require distributors and external end users to agree to terms that protect it at least as much as this agreement; 
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 display your valid copyright notice on your programs}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid15496033 ; and
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 indemnify, defend, and hold harmless Microsoft from any claims, including attorneys\rquote 
+ fees, related to the distribution or use of your programs.
+\par }\pard\plain \ltrpar\s3\ql \fi-357\li1077\ri0\sb120\sa120\nowidctlpar\tx1077\wrapdefault\faauto\outlinelevel2\rin0\lin1077\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 iii.\tab Distribution Restrictions. You may not}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\tx1437\wrapdefault\faauto\rin0\lin1435\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 alter any copyright, trademark or patent notice in the Distributable Code; 
+\par }\pard \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1435\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+use Microsoft\rquote s trademarks in your programs\rquote  names or in a way that suggests your programs come from or are endorsed by Microsoft; 
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 distribute Distributable Code other than }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid4198523 in
+ a form that works with Windows Azure}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 ;
+\par }\pard \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1435\itap0\pararsid15496033 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid15496033 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid15496033 
+in the case of Microsoft code included in Binary Packages, extract }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid7030256 such }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid15496033 
+Microsoft code from the Binary Packages or use such Microsoft code other than }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid7030256 in the process of running your programs }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid15496033 on Windows Azure;
+
+\par }\pard \ltrpar\ql \fi-358\li1435\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1435\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 inclu
+de Distributable Code in malicious, deceptive or unlawful programs; or
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+modify or distribute the source code of any Distributable Code so that any part of it becomes subject to an Excluded License. An Excluded License is one that requires, as a condition of use, modification or distribution, that
+\par }\pard \ltrpar\ql \fi-357\li1792\ri0\sb120\sa120\nowidctlpar\tx1795\wrapdefault\faauto\rin0\lin1792\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+the code be disclosed or distributed in source code form; or 
+\par }\pard \ltrpar\ql \fi-357\li1792\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1792\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+others have the right to modify it.
+\par }\pard\plain \ltrpar\s1\ql \fi-357\li357\ri0\sb120\sa120\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin357\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid5859866 3.\tab Scope of License}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 .}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+ The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permit
+ted in this agreement. In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. You may not}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\ql \fi-363\li720\ri0\sb120\sa120\nowidctlpar\tx720\wrapdefault\faauto\rin0\lin720\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af3\afs20 
+\ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 work around any technical limitations in the software}{\rtlch\fcs1 \af38\afs19 \ltrch\fcs0 \fs19\insrsid5859866 ;}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 
+\f0\fs20\insrsid5859866 
+\par }\pard \ltrpar\ql \fi-363\li720\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+reverse engineer, decompile or disassemble the software}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid7030256  or Binary Packages}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+, except and only to the extent that applicable law expressly permits, despite this limitation}{\rtlch\fcs1 \af38\afs19 \ltrch\fcs0 \fs19\insrsid5859866 ;}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\insrsid5859866 
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 publish the software for others to copy}{\rtlch\fcs1 \af38\afs19 \ltrch\fcs0 \fs19\insrsid5859866 ;}{\rtlch\fcs1 \af38\afs19 
+\ltrch\fcs0 \fs19\insrsid15212670  or}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\insrsid5859866 
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 rent, lease or lend the software}{\rtlch\fcs1 \af38\afs19 \ltrch\fcs0 \fs19\insrsid15212670 .}{\rtlch\fcs1 \af0\afs20 
+\ltrch\fcs0 \f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\s1\ql \fi-357\li357\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin357\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid10775666 4}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 .\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \b\fs20\dbch\af13\insrsid15212670\charrsid10637406 \hich\af38\dbch\af13\loch\f38 
+TRANSFER TO A THIRD PARTY.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\dbch\af13\insrsid15212670 \hich\af38\dbch\af13\loch\f38  The first us\hich\af38\dbch\af13\loch\f38 er of the software may transfer it and }{\rtlch\fcs1 \af38 \ltrch\fcs0 
+\fs20\insrsid15212670 this agreement }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\dbch\af13\insrsid15212670 \hich\af38\dbch\af13\loch\f38 directly }{\rtlch\fcs1 \af38 \ltrch\fcs0 \fs20\insrsid15212670 to }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 
+\fs20\dbch\af13\insrsid15212670 \hich\af38\dbch\af13\loch\f38 a }{\rtlch\fcs1 \af38 \ltrch\fcs0 \fs20\insrsid15212670 third party}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\dbch\af13\insrsid15212670 \hich\af38\dbch\af13\loch\f38 
+. Before the transfer, that party must agree that this agreement applies to the transfer and use of the software. The first user must uninstall the software before transferring \hich\af38\dbch\af13\loch\f38 it. The first user may not retain any copies.}{
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid15212670 
+\par 5.\tab }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 DOCUMENTATION.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+ Any person that has valid access to your computer or internal network may copy and use the documentation for your internal, reference purposes.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid15212670 6}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid5859866 .\tab Export Restrictions}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 .}{\rtlch\fcs1 
+\af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866  The software is subject 
+to United States export laws and regulations. You must comply with all domestic and international export laws and regulations that apply to the software. These laws include restrictions on destinations, end users and end use. For additional information, s
+ee }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\ul\cf2\insrsid5859866 www.microsoft.com/exporting}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\insrsid5859866 .}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\ul\cf2\insrsid5859866 
+\par }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid15212670 7}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid5859866 .\tab SUPPORT SERVICES.}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866  }{\rtlch\fcs1 \af38\afs20 
+\ltrch\fcs0 \fs20\insrsid5859866 Because this software is \'93as is,\'94 we may not provide support services for it.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid15212670 8}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid5859866 .\tab Entire Agreement.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+ This agreement, and the terms for supplements, updates, Internet-based services and support services that you use, are the entire agreement for the software and support services.
+\par }\pard \ltrpar\s1\ql \fi-360\li360\ri0\sb120\sa120\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin360\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid15212670 9}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 
+\b\caps\fs20\insrsid5859866 .\tab Applicable Law}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 .
+\par }\pard\plain \ltrpar\s2\ql \fi-363\li720\ri0\sb120\sa120\nowidctlpar\tx720\wrapdefault\faauto\outlinelevel1\rin0\lin720\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 a.\tab United States.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866  If you acquired the software in the Uni
+ted States, Washington state law governs the interpretation of this agreement and applies to claims for breach of it, regardless of conflict of laws principles. The laws of the state where you live govern all other claims, including claims under state con
+sumer protection laws, unfair competition laws, and in tort.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard \ltrpar\s2\ql \fi-363\li720\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin720\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 b.\tab Outside the United States.}{\rtlch\fcs1 \af38\afs20 
+\ltrch\fcs0 \fs20\insrsid5859866  If you acquired the software in any other country, the laws of that country apply.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\s1\ql \fi-357\li357\ri0\sb120\sa120\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin357\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid15212670 10}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid5859866 .\tab Legal Effect.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+ This agreement describes certain legal rights. You may have other
+ rights under the laws of your country. You may also have rights with respect to the party from whom you acquired the software. This agreement does not change your rights under the laws of your country if the laws of your country do not permit it to do so
+.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\caps\f0\fs20\insrsid5859866 
+\par }\pard \ltrpar\s1\ql \fi-357\li357\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin357\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid15212670 11}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 
+\b\caps\fs20\insrsid5859866 .\tab Disclaimer of Warranty.}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866  The software is licensed \'93as-is.\'94
+ You bear the risk of using it. Microsoft gives no express warranties, guarantees or conditions. You may have additional consumer rights under your local laws which this agreement cannot change.
+ To the extent permitted under your local laws, Microsoft excludes the implied warranties of merchantability, fitness for a particular purpose and non-infringement.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\caps\f0\fs20\insrsid5859866 
+\par }\pard \ltrpar\s1\ql \fi-360\li360\ri0\sb120\sa120\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin360\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\caps\fs20\insrsid15212670 12}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 
+\b\caps\fs20\insrsid5859866 .\tab Limitation on and Exclusion of Remedies and Damages. }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 You can recover from Microsoft and
+ its suppliers only direct damages up to U.S. $5.00. You cannot recover any other damages, including consequential, lost profits, special, indirect or incidental damages.}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\caps\f0\fs20\insrsid5859866 
+\par }\pard\plain \ltrpar\ql \li357\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin357\itap0\pararsid5859866 \rtlch\fcs1 \af38\afs24\alang1025 \ltrch\fcs0 \f38\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 
+\fs20\insrsid5859866 This limitation applies to
+\par }\pard \ltrpar\ql \fi-363\li720\ri0\sb120\sa120\nowidctlpar\tx720\wrapdefault\faauto\rin0\lin720\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+anything related to the software, services, content (including code) on third party Internet sites, or third party programs; and
+\par }\pard \ltrpar\ql \fi-363\li720\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+claims for breach of contract, breach of warranty, guarantee or condition, strict liability, negligence, or other tort to the extent permitted by applicable law.
+\par }\pard \ltrpar\ql \li360\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin360\itap0\pararsid5859866 {\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 It also applies eve
+n if Microsoft knew or should have known about the possibility of the damages. The above limitation or exclusion may not apply to you because your country may not allow the exclusion or limitation of incidental, consequential or other damages.
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 Please note:
+ As this software is distributed in Quebec, Canada, some of the clauses in this agreement are provided below in French.
+\par Remarque : Ce logiciel \'e9tant distribu\'e9 au Qu\'e9bec, Canada, certaines des clauses dans ce contrat sont fournies ci-dessous en fran\'e7ais.
+\par EXON\'c9RATION DE GARANTIE.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866  Le logiciel vis\'e9 par une licence est offert \'ab tel quel \'bb. Toute utilisation de ce logiciel est \'e0 votre seule risque et p\'e9ril. Microsoft n\rquote 
+accorde aucune autre garantie expresse. Vous pouvez b\'e9n\'e9ficier de droits additionnels en vert
+u du droit local sur la protection des consommateurs, que ce contrat ne peut modifier. La ou elles sont permises par le droit locale, les garanties implicites de qualit\'e9 marchande, d\rquote ad\'e9quation \'e0 un usage particulier et d\rquote 
+absence de contrefa\'e7on sont exclues.
+\par }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 LIMITATION DES DOMMAGES-INT\'c9R\'caTS ET EXCLUSION DE RESPONSABILIT\'c9 POUR LES DOMMAGES.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+ Vous pouvez obtenir de Microsoft et de ses fournisseurs une indemnisation en cas de dommages directs uniquement \'e0 hauteur de 5,00 $ US. Vous ne pouvez pr\'e9tendre \'e0 aucune indemnisation pour les autres dommages, y compris les dommages sp\'e9
+ciaux, indirects ou accessoires et pertes de b\'e9n\'e9fices.
+\par Cette limitation concerne :
+\par }\pard \ltrpar\ql \fi-360\li360\ri0\sb120\sa120\nowidctlpar\tx360\wrapdefault\faauto\rin0\lin360\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 
+tout ce qui est reli\'e9 au logiciel, aux services ou au contenu (y compris le code) figurant sur des sites Internet tiers ou dans des programmes tiers ; et
+\par }\pard \ltrpar\ql \fi-360\li360\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin360\itap0\pararsid5859866 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid5859866 \'b7\tab }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 les r\'e9
+clamations au titre de violation de contrat ou de garantie, ou au titre de responsabilit\'e9 stricte, de n\'e9gligence ou d\rquote une autre faute dans la limite autoris\'e9e par la loi en vigueur.
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 {\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866 Elle s\rquote applique \'e9galement, m\'eame si Microsoft connaissait ou devrait conna\'eetre l
+\rquote \'e9ventualit\'e9 d\rquote un tel dommage. Si votre pays n\rquote autorise pas l\rquote exclusion ou la limitation de responsabilit\'e9 pour les dommages indirects, accessoires ou de quelque nature que ce soit, il se peut que la limitation ou l
+\rquote exclusion ci-dessus ne s\rquote appliquera pas \'e0 votre \'e9gard.
+\par }{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\fs20\insrsid5859866 EFFET JURIDIQUE.}{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\insrsid5859866  Le pr\'e9sent contrat d\'e9crit certains droits juridiques. Vous pourriez avoir d\rquote autres droits pr\'e9
+vus par les lois de votre pays. }{\rtlch\fcs1 \af38\afs20 \ltrch\fcs0 \fs20\lang1036\langfe1033\langnp1036\insrsid5859866 Le pr\'e9sent contrat ne modifie pas les droits que vous conf\'e8rent les lois de votre pays si celles-ci ne le permettent pas.}{
+\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\lang1036\langfe1033\langnp1036\insrsid5859866 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5859866 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid5859866 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38 \ltrch\fcs0 \insrsid5124515 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b03041400060008000000210096b5ade296060000501b0000160000007468656d652f7468656d652f
+7468656d65312e786d6cec594f6fdb3614bf0fd87720746f6327761a07758ad8b19b2d4d1bc46e871e698996d850a240d2497d1bdae38001c3ba618715d86d87
+615b8116d8a5fb34d93a6c1dd0afb0475292c5585e9236d88aad3e2412f9e3fbff1e1fa9abd7eec70c1d1221294fda5efd72cd4324f1794093b0eddd1ef62fad
+79482a9c0498f184b4bd2991deb58df7dfbb8ad755446282607d22d771db8b944ad79796a40fc3585ee62949606ecc458c15bc8a702910f808e8c66c69b9565b
+5d8a314d3c94e018c8de1a8fa94fd05093f43672e23d06af89927ac06762a049136785c10607758d9053d965021d62d6f6804fc08f86e4bef210c352c144dbab
+999fb7b4717509af678b985ab0b6b4ae6f7ed9ba6c4170b06c788a705430adf71bad2b5b057d03606a1ed7ebf5babd7a41cf00b0ef83a6569632cd467faddec9
+699640f6719e76b7d6ac355c7c89feca9cccad4ea7d36c65b258a206641f1b73f8b5da6a6373d9c11b90c537e7f08dce66b7bbeae00dc8e257e7f0fd2badd586
+8b37a088d1e4600ead1ddaef67d40bc898b3ed4af81ac0d76a197c86826828a24bb318f3442d8ab518dfe3a20f000d6458d104a9694ac6d88728eee2782428d6
+0cf03ac1a5193be4cbb921cd0b495fd054b5bd0f530c1931a3f7eaf9f7af9e3f45c70f9e1d3ff8e9f8e1c3e3073f5a42ceaa6d9c84e5552fbffdeccfc71fa33f
+9e7ef3f2d117d57859c6fffac327bffcfc793510d26726ce8b2f9ffcf6ecc98baf3efdfdbb4715f04d814765f890c644a29be408edf3181433567125272371be
+15c308d3f28acd249438c19a4b05fd9e8a1cf4cd296699771c393ac4b5e01d01e5a30a787d72cf1178108989a2159c77a2d801ee72ce3a5c545a6147f32a9979
+3849c26ae66252c6ed637c58c5bb8b13c7bfbd490a75330f4b47f16e441c31f7184e140e494214d273fc80900aedee52ead87597fa824b3e56e82e451d4c2b4d
+32a423279a668bb6690c7e9956e90cfe766cb37b077538abd27a8b1cba48c80acc2a841f12e698f13a9e281c57911ce298950d7e03aba84ac8c154f8655c4f2a
+f074481847bd804859b5e696007d4b4edfc150b12addbecba6b18b148a1e54d1bc81392f23b7f84137c2715a851dd0242a633f900710a218ed715505dfe56e86
+e877f0034e16bafb0e258ebb4faf06b769e888340b103d3311da9750aa9d0a1cd3e4efca31a3508f6d0c5c5c398602f8e2ebc71591f5b616e24dd893aa3261fb
+44f95d843b5974bb5c04f4edafb95b7892ec1108f3f98de75dc97d5772bdff7cc95d94cf672db4b3da0a6557f70db629362d72bcb0431e53c6066acac80d699a
+6409fb44d08741bdce9c0e4971624a2378cceaba830b05366b90e0ea23aaa241845368b0eb9e2612ca8c742851ca251ceccc70256d8d87265dd96361531f186c
+3d9058edf2c00eafe8e1fc5c509031bb4d680e9f39a3154de0accc56ae644441edd76156d7429d995bdd88664a9dc3ad50197c38af1a0c16d684060441db0256
+5e85f3b9660d0713cc48a0ed6ef7dedc2dc60b17e92219e180643ed27acffba86e9c94c78ab90980d8a9f0913ee49d62b512b79626fb06dccee2a432bbc60276
+b9f7dec44b7904cfbca4f3f6443ab2a49c9c2c41476dafd55c6e7ac8c769db1bc399161ee314bc2e75cf8759081743be1236ec4f4d6693e5336fb672c5dc24a8
+c33585b5fb9cc24e1d4885545b58463634cc5416022cd19cacfccb4d30eb45296023fd35a458598360f8d7a4003bbaae25e331f155d9d9a5116d3bfb9a95523e
+51440ca2e0088dd844ec6370bf0e55d027a012ae264c45d02f708fa6ad6da6dce29c255df9f6cae0ec38666984b372ab5334cf640b37795cc860de4ae2816e95
+b21be5ceaf8a49f90b52a51cc6ff3355f47e0237052b81f6800fd7b802239daf6d8f0b1571a8426944fdbe80c6c1d40e8816b88b8569082ab84c36ff0539d4ff
+6dce591a26ade1c0a7f669880485fd484582903d284b26fa4e2156cff62e4b9265844c4495c495a9157b440e091bea1ab8aaf7760f4510eaa69a6465c0e04ec6
+9ffb9e65d028d44d4e39df9c1a52ecbd3607fee9cec7263328e5d661d3d0e4f62f44acd855ed7ab33cdf7bcb8ae889599bd5c8b3029895b6825696f6af29c239
+b75a5bb1e6345e6ee6c28117e73586c1a2214ae1be07e93fb0ff51e133fb65426fa843be0fb515c187064d0cc206a2fa926d3c902e907670048d931db4c1a449
+59d366ad93b65abe595f70a75bf03d616c2dd959fc7d4e6317cd99cbcec9c58b34766661c7d6766ca1a9c1b327531486c6f941c638c67cd22a7f75e2a37be0e8
+2db8df9f30254d30c1372581a1f51c983c80e4b71ccdd28dbf000000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468
+656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4
+350d363f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d2624
+52282e3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe5141
+73d9850528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c020000130000000000000000
+0000000000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00000000000000
+000000000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c0000000000000000000000000019
+0200007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d001400060008000000210096b5ade296060000501b00001600000000
+000000000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b01000027
+00000000000000000000000000a00900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d0100009b0a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax267\lsdlockeddef0\lsdsemihiddendef1\lsdunhideuseddef1\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdlocked0 heading 1;\lsdqformat1 \lsdlocked0 heading 2;\lsdqformat1 \lsdlocked0 heading 3;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;
+\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdpriority39 \lsdlocked0 toc 1;
+\lsdpriority39 \lsdlocked0 toc 2;\lsdpriority39 \lsdlocked0 toc 3;\lsdpriority39 \lsdlocked0 toc 4;\lsdpriority39 \lsdlocked0 toc 5;\lsdpriority39 \lsdlocked0 toc 6;\lsdpriority39 \lsdlocked0 toc 7;\lsdpriority39 \lsdlocked0 toc 8;
+\lsdpriority39 \lsdlocked0 toc 9;\lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdpriority1 \lsdlocked0 Default Paragraph Font;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority59 \lsdlocked0 Table Grid;\lsdunhideused0 \lsdlocked0 Placeholder Text;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdunhideused0 \lsdlocked0 Revision;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdpriority37 \lsdlocked0 Bibliography;\lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;}}{\*\datastore 010500000200000018000000
+4d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000060a9
+378a7e92cc01feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}

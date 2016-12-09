@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE4D90C1-DF04-4BC8-959A-8CF0090CD3D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIT.DMF.DependencyService.Integration.Test</RootNamespace>
+    <AssemblyName>AIT.DMF.DependencyService.Integration.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=2.24.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.24.304111323\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms, Version=2.24.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.24.304111323\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.ServiceBus, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WindowsAzure.ServiceBus.3.1.7\lib\net45-full\Microsoft.ServiceBus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Build.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Build.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Build.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Build.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Build2.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.Build2.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Chat.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.Chat.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.VisualStudio.Services.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Core.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.Core.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.DeleteTeamProject, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.DeleteTeamProject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Diff, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Diff.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Discussion.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Discussion.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Git.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Git.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Lab.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Lab.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Lab.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Lab.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Lab.TestIntegration.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Lab.TestIntegration.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Policy.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.Policy.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.ProjectManagement, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.ProjectManagement.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.SharePointReporting.Integration, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.SharePointReporting.Integration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.SourceControl.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.SourceControl.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Test.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.Test.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.TestImpact.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.TestImpact.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.TestManagement.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.TestManagement.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.TestManagement.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.TestManagement.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.TestManagement.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.TestManagement.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.VersionControl.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.VersionControl.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.VersionControl.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.VersionControl.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.VersionControl.Common.Integration, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.VersionControl.Common.Integration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Work.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.Work.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.WorkItemTracking.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.WorkItemTracking.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Proxy, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\lib\net45\Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.TeamFoundationServer.Client.14.95.3\lib\net45\Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.VisualStudio.Services.InteractiveClient.14.95.3\lib\net45\Microsoft.VisualStudio.Services.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.VisualStudio.Services.Client.14.95.3\lib\net45\Microsoft.VisualStudio.Services.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Services.WebApi, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.VisualStudio.Services.Client.14.95.3\lib\net45\Microsoft.VisualStudio.Services.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.WindowsAzure.ConfigurationManager.3.2.1\lib\net40\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Moq, Version=4.5.8.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Moq.4.5.8\lib\net45\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IdentityModel.Tokens.Jwt.4.0.2.206221351\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>True</Private>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\WorkspaceHelper.cs" />
+    <Compile Include="Preparation\VNextBuildResultPreparation.cs" />
+    <Compile Include="Preparation\BuildResultPreparation.cs" />
+    <Compile Include="VNextBuildResultTests.cs" />
+    <Compile Include="BuildResultTests.cs" />
+    <Compile Include="Config\Values.cs" />
+    <Compile Include="DependencyBinaryRepositoryTest.cs" />
+    <Compile Include="DependencyServiceSourceControlCopyTest.cs" />
+    <Compile Include="DependencySubversionTest.cs" />
+    <Compile Include="Preparation\BinaryRepositoryPreparation.cs" />
+    <Compile Include="Preparation\FileSharePreparation.cs" />
+    <Compile Include="Preparation\SubversionPreparation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DependencyFileShareControlTest.cs" />
+    <Compile Include="Preparation\SourceControlPreparation.cs" />
+    <Compile Include="DependencyServiceSourceControlMappingTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Plugins\Downloader\AIT.DMF.Plugins.Downloader.Subversion.Test\Resources\SVNRepo.zip">
+      <Link>Resources\SVNRepo.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TestData\SVNRepo\conf\authz" />
+    <None Include="TestData\SVNRepo\conf\hooks-env.tmpl" />
+    <None Include="TestData\SVNRepo\conf\passwd" />
+    <None Include="TestData\SVNRepo\conf\svnserve.conf" />
+    <None Include="TestData\SVNRepo\db\current" />
+    <None Include="TestData\SVNRepo\db\format" />
+    <None Include="TestData\SVNRepo\db\fs-type" />
+    <None Include="TestData\SVNRepo\db\fsfs.conf" />
+    <None Include="TestData\SVNRepo\db\min-unpacked-rev" />
+    <None Include="TestData\SVNRepo\db\rep-cache.db" />
+    <None Include="TestData\SVNRepo\db\revprops\0\0" />
+    <None Include="TestData\SVNRepo\db\revprops\0\1" />
+    <None Include="TestData\SVNRepo\db\revprops\0\10" />
+    <None Include="TestData\SVNRepo\db\revprops\0\11" />
+    <None Include="TestData\SVNRepo\db\revprops\0\12" />
+    <None Include="TestData\SVNRepo\db\revprops\0\13" />
+    <None Include="TestData\SVNRepo\db\revprops\0\14" />
+    <None Include="TestData\SVNRepo\db\revprops\0\15" />
+    <None Include="TestData\SVNRepo\db\revprops\0\16" />
+    <None Include="TestData\SVNRepo\db\revprops\0\17" />
+    <None Include="TestData\SVNRepo\db\revprops\0\18" />
+    <None Include="TestData\SVNRepo\db\revprops\0\19" />
+    <None Include="TestData\SVNRepo\db\revprops\0\2" />
+    <None Include="TestData\SVNRepo\db\revprops\0\20" />
+    <None Include="TestData\SVNRepo\db\revprops\0\21" />
+    <None Include="TestData\SVNRepo\db\revprops\0\22" />
+    <None Include="TestData\SVNRepo\db\revprops\0\23" />
+    <None Include="TestData\SVNRepo\db\revprops\0\24" />
+    <None Include="TestData\SVNRepo\db\revprops\0\25" />
+    <None Include="TestData\SVNRepo\db\revprops\0\26" />
+    <None Include="TestData\SVNRepo\db\revprops\0\27" />
+    <None Include="TestData\SVNRepo\db\revprops\0\28" />
+    <None Include="TestData\SVNRepo\db\revprops\0\29" />
+    <None Include="TestData\SVNRepo\db\revprops\0\3" />
+    <None Include="TestData\SVNRepo\db\revprops\0\30" />
+    <None Include="TestData\SVNRepo\db\revprops\0\31" />
+    <None Include="TestData\SVNRepo\db\revprops\0\32" />
+    <None Include="TestData\SVNRepo\db\revprops\0\33" />
+    <None Include="TestData\SVNRepo\db\revprops\0\34" />
+    <None Include="TestData\SVNRepo\db\revprops\0\35" />
+    <None Include="TestData\SVNRepo\db\revprops\0\36" />
+    <None Include="TestData\SVNRepo\db\revprops\0\37" />
+    <None Include="TestData\SVNRepo\db\revprops\0\38" />
+    <None Include="TestData\SVNRepo\db\revprops\0\39" />
+    <None Include="TestData\SVNRepo\db\revprops\0\4" />
+    <None Include="TestData\SVNRepo\db\revprops\0\40" />
+    <None Include="TestData\SVNRepo\db\revprops\0\41" />
+    <None Include="TestData\SVNRepo\db\revprops\0\42" />
+    <None Include="TestData\SVNRepo\db\revprops\0\43" />
+    <None Include="TestData\SVNRepo\db\revprops\0\44" />
+    <None Include="TestData\SVNRepo\db\revprops\0\45" />
+    <None Include="TestData\SVNRepo\db\revprops\0\46" />
+    <None Include="TestData\SVNRepo\db\revprops\0\5" />
+    <None Include="TestData\SVNRepo\db\revprops\0\6" />
+    <None Include="TestData\SVNRepo\db\revprops\0\7" />
+    <None Include="TestData\SVNRepo\db\revprops\0\8" />
+    <None Include="TestData\SVNRepo\db\revprops\0\9" />
+    <None Include="TestData\SVNRepo\db\revs\0\0" />
+    <None Include="TestData\SVNRepo\db\revs\0\1" />
+    <None Include="TestData\SVNRepo\db\revs\0\10" />
+    <None Include="TestData\SVNRepo\db\revs\0\11" />
+    <None Include="TestData\SVNRepo\db\revs\0\12" />
+    <None Include="TestData\SVNRepo\db\revs\0\13" />
+    <None Include="TestData\SVNRepo\db\revs\0\14" />
+    <None Include="TestData\SVNRepo\db\revs\0\15" />
+    <None Include="TestData\SVNRepo\db\revs\0\16" />
+    <None Include="TestData\SVNRepo\db\revs\0\17" />
+    <None Include="TestData\SVNRepo\db\revs\0\18" />
+    <None Include="TestData\SVNRepo\db\revs\0\19" />
+    <None Include="TestData\SVNRepo\db\revs\0\2" />
+    <None Include="TestData\SVNRepo\db\revs\0\20" />
+    <None Include="TestData\SVNRepo\db\revs\0\21" />
+    <None Include="TestData\SVNRepo\db\revs\0\22" />
+    <None Include="TestData\SVNRepo\db\revs\0\23" />
+    <None Include="TestData\SVNRepo\db\revs\0\24" />
+    <None Include="TestData\SVNRepo\db\revs\0\25" />
+    <None Include="TestData\SVNRepo\db\revs\0\26" />
+    <None Include="TestData\SVNRepo\db\revs\0\27" />
+    <None Include="TestData\SVNRepo\db\revs\0\28" />
+    <None Include="TestData\SVNRepo\db\revs\0\29" />
+    <None Include="TestData\SVNRepo\db\revs\0\3" />
+    <None Include="TestData\SVNRepo\db\revs\0\30" />
+    <None Include="TestData\SVNRepo\db\revs\0\31" />
+    <None Include="TestData\SVNRepo\db\revs\0\32" />
+    <None Include="TestData\SVNRepo\db\revs\0\33" />
+    <None Include="TestData\SVNRepo\db\revs\0\34" />
+    <None Include="TestData\SVNRepo\db\revs\0\35" />
+    <None Include="TestData\SVNRepo\db\revs\0\36" />
+    <None Include="TestData\SVNRepo\db\revs\0\37" />
+    <None Include="TestData\SVNRepo\db\revs\0\38" />
+    <None Include="TestData\SVNRepo\db\revs\0\39" />
+    <None Include="TestData\SVNRepo\db\revs\0\4" />
+    <None Include="TestData\SVNRepo\db\revs\0\40" />
+    <None Include="TestData\SVNRepo\db\revs\0\41" />
+    <None Include="TestData\SVNRepo\db\revs\0\42" />
+    <None Include="TestData\SVNRepo\db\revs\0\43" />
+    <None Include="TestData\SVNRepo\db\revs\0\44" />
+    <None Include="TestData\SVNRepo\db\revs\0\45" />
+    <None Include="TestData\SVNRepo\db\revs\0\46" />
+    <None Include="TestData\SVNRepo\db\revs\0\5" />
+    <None Include="TestData\SVNRepo\db\revs\0\6" />
+    <None Include="TestData\SVNRepo\db\revs\0\7" />
+    <None Include="TestData\SVNRepo\db\revs\0\8" />
+    <None Include="TestData\SVNRepo\db\revs\0\9" />
+    <None Include="TestData\SVNRepo\db\txn-current" />
+    <None Include="TestData\SVNRepo\db\txn-current-lock" />
+    <None Include="TestData\SVNRepo\db\uuid" />
+    <None Include="TestData\SVNRepo\db\write-lock" />
+    <None Include="TestData\SVNRepo\format" />
+    <None Include="TestData\SVNRepo\hooks\post-commit.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\post-lock.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\post-revprop-change.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\post-unlock.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\pre-commit.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\pre-lock.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\pre-revprop-change.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\pre-unlock.tmpl" />
+    <None Include="TestData\SVNRepo\hooks\start-commit.tmpl" />
+    <None Include="TestData\SVNRepo\locks\db-logs.lock" />
+    <None Include="TestData\SVNRepo\locks\db.lock" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AIT.DMF.Contracts\AIT.DMF.Contracts.csproj">
+      <Project>{bb7e3dc8-8de3-4f4e-94b9-c410d7a3162a}</Project>
+      <Name>AIT.DMF.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AIT.DMF.DependencyService\AIT.DMF.DependencyService.csproj">
+      <Project>{f5373c55-e192-4c6f-8ae7-5890baa76e51}</Project>
+      <Name>AIT.DMF.DependencyService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Resolver\AIT.DMF.Plugins.Resolver.BinaryRepository\AIT.DMF.Plugins.Resolver.BinaryRepository.csproj">
+      <Project>{D2CC4F57-2144-4E93-A557-3EC49C372056}</Project>
+      <Name>AIT.DMF.Plugins.Resolver.BinaryRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Resolver\AIT.DMF.Plugins.Resolver.BuildResult\AIT.DMF.Plugins.Resolver.BuildResult.csproj">
+      <Project>{5A3CB4B3-9ADE-4685-9B52-E83E4B9BC57C}</Project>
+      <Name>AIT.DMF.Plugins.Resolver.BuildResult</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Resolver\AIT.DMF.Plugins.Resolver.FileShare\AIT.DMF.Plugins.Resolver.FileShare.csproj">
+      <Project>{ac0f8a6c-4ae6-41e5-8b31-d64a5ec39619}</Project>
+      <Name>AIT.DMF.Plugins.Resolver.FileShare</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Resolver\AIT.DMF.Plugins.Resolver.SourceControl\AIT.DMF.Plugins.Resolver.SourceControl.csproj">
+      <Project>{6c06bb7c-fa35-4f10-8f8c-76bf4bc64261}</Project>
+      <Name>AIT.DMF.Plugins.Resolver.SourceControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Resolver\AIT.DMF.Plugins.Resolver.Subversion\AIT.DMF.Plugins.Resolver.Subversion.csproj">
+      <Project>{008F12BA-9846-498E-8BF4-E69C2825EE15}</Project>
+      <Name>AIT.DMF.Plugins.Resolver.Subversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Resolver\AIT.DMF.Plugins.Resolver.VNextBuildResult\AIT.DMF.Plugins.Resolver.VNextBuildResult.csproj">
+      <Project>{209CC860-9FA9-45E5-9D2A-52E45B71EB05}</Project>
+      <Name>AIT.DMF.Plugins.Resolver.VNextBuildResult</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestData\SVNRepo\db\transactions\" />
+    <Folder Include="TestData\SVNRepo\db\txn-protorevs\" />
+    <Folder Include="TestData\SVNRepo\SVNRepo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestData\SVNRepo\README.txt" />
+    <Content Include="TestData\SVNRepo\svn.ico" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\build\Microsoft.TeamFoundationServer.ExtendedClient.targets" Condition="Exists('..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\build\Microsoft.TeamFoundationServer.ExtendedClient.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\build\Microsoft.TeamFoundationServer.ExtendedClient.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.TeamFoundationServer.ExtendedClient.14.95.3\build\Microsoft.TeamFoundationServer.ExtendedClient.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

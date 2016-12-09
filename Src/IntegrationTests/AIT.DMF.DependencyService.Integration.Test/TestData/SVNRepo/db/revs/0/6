@@ -1,0 +1,58 @@
+PLAIN
+END
+ENDREP
+id: q-2.0.r6/17
+type: dir
+pred: q-2.0.r5/97
+count: 2
+text: 2 3282 42 42 a80f74fa74188afcfe9d5e4579f46eb7
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 16
+dir 1-2.0.r4/550
+K 3
+src
+V 15
+dir q-2.0.r6/17
+END
+ENDREP
+id: 3-1.0.r6/279
+type: dir
+pred: 3-1.0.r5/363
+count: 5
+text: 6 203 63 63 598ce484eee994572a5057fcac421f49
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 16
+dir 3-1.0.r6/279
+END
+ENDREP
+id: 0.0.r6/526
+type: dir
+pred: 0.0.r5/610
+count: 6
+text: 6 414 99 99 8b59bf090089205307243528e55a3be9
+cpath: /
+copyroot: 0 /
+
+q-2.0.t5-5 modify-dir false true /trunk/src
+
+
+526 652

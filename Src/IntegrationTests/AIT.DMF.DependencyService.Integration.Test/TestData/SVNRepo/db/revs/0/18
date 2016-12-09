@@ -1,0 +1,132 @@
+id: 4-18.0.r18/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 17-h/_9
+cpath: /trunk/src/ComponentA/Class1.cs
+copyroot: 0 /
+
+id: 6-18.0.r18/187
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 17-h/_b
+cpath: /trunk/src/ComponentA/Class2.cs
+copyroot: 0 /
+
+id: 7-18.0.r18/376
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 17-h/_c
+cpath: /trunk/src/ComponentA/Class3.cs
+copyroot: 0 /
+
+id: 8-18.0.r18/565
+type: file
+count: 0
+text: 11 0 70 58 c7f11efcd2d7255a537ac93b77c9bee2 9d4c951127324ebb90abc575257b91b557078ac6 17-h/_a
+cpath: /trunk/src/ComponentA/component.targets
+copyroot: 0 /
+
+PLAIN
+K 9
+Class1.cs
+V 17
+file 4-18.0.r18/0
+K 9
+Class2.cs
+V 19
+file 6-18.0.r18/187
+K 9
+Class3.cs
+V 19
+file 7-18.0.r18/376
+K 17
+component.targets
+V 19
+file 8-18.0.r18/565
+END
+ENDREP
+id: 2-18.0.r18/945
+type: dir
+count: 0
+text: 18 765 167 167 cec84c727d8168d6281e3f47d7718936
+cpath: /trunk/src/ComponentA
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 18
+dir 2-18.0.r18/945
+K 9
+MyCode.cs
+V 18
+file r-2.0.r2/3106
+K 17
+component.targets
+V 18
+file 2-11.0.r11/83
+END
+ENDREP
+id: q-2.0.r18/1223
+type: dir
+pred: q-2.0.r11/373
+count: 4
+text: 18 1081 129 129 a7f782311541ff80107ceca06c3e884c
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r17/1023
+K 3
+src
+V 18
+dir q-2.0.r18/1223
+END
+ENDREP
+id: 3-1.0.r18/1498
+type: dir
+pred: 3-1.0.r17/1249
+count: 17
+text: 18 1417 68 68 5fb8a3a956632d150b7a94c3c29ba75d
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 18
+dir 3-1.0.r18/1498
+END
+ENDREP
+id: 0.0.r18/1754
+type: dir
+pred: 0.0.r17/1504
+count: 18
+text: 18 1640 101 101 0ecbe0bbb86066400fe968524db82032
+cpath: /
+copyroot: 0 /
+
+_2.0.t17-h add-dir false false /trunk/src/ComponentA
+
+_4.0.t17-h add-file true false /trunk/src/ComponentA/Class1.cs
+
+_6.0.t17-h add-file true false /trunk/src/ComponentA/Class2.cs
+
+_7.0.t17-h add-file true false /trunk/src/ComponentA/Class3.cs
+
+_8.0.t17-h add-file true false /trunk/src/ComponentA/component.targets
+
+
+1754 1889

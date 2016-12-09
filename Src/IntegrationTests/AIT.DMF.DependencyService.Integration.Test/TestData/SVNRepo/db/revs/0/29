@@ -1,0 +1,112 @@
+id: 3-29.0.r29/0
+type: file
+count: 0
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 28-t/_5
+cpath: /trunk/src/ComponentA/Class4.cs
+copyroot: 0 /
+
+PLAIN
+K 9
+Class1.cs
+V 17
+file 4-18.0.r18/0
+K 9
+Class2.cs
+V 19
+file 6-18.0.r18/187
+K 9
+Class3.cs
+V 19
+file 7-18.0.r18/376
+K 9
+Class4.cs
+V 17
+file 3-29.0.r29/0
+K 7
+Logging
+V 18
+dir 3-20.0.r20/262
+K 17
+component.targets
+V 19
+file 8-18.0.r18/565
+END
+ENDREP
+id: 2-18.0.r29/440
+type: dir
+pred: 2-18.0.r20/620
+count: 2
+text: 29 187 240 240 afd50a620c367ada483f72a088c6c7eb
+cpath: /trunk/src/ComponentA
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 18
+dir 2-18.0.r29/440
+K 14
+ComponentEmpty
+V 18
+dir 2-25.0.r25/262
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-26.0.r26/0
+END
+ENDREP
+id: q-2.0.r29/748
+type: dir
+pred: q-2.0.r26/243
+count: 9
+text: 29 597 138 138 9bb000e171e3c77dbc753cd17470f44b
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r17/1023
+K 3
+src
+V 17
+dir q-2.0.r29/748
+END
+ENDREP
+id: 3-1.0.r29/1020
+type: dir
+pred: 3-1.0.r26/514
+count: 22
+text: 29 940 67 67 4c2fd005c002bb3ff7c41d60ceacf300
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 18
+dir 3-1.0.r29/1020
+END
+ENDREP
+id: 0.0.r29/1276
+type: dir
+pred: 0.0.r28/490
+count: 29
+text: 29 1160 103 103 fea211e75564a0bd30a03ccd83673383
+cpath: /
+copyroot: 0 /
+
+_3.0.t28-t add-file true false /trunk/src/ComponentA/Class4.cs
+
+
+1276 1410

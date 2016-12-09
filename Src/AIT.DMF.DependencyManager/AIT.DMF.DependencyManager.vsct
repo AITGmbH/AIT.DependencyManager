@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!--  This is the file that defines the actual layout and type of the commands.
+        It is divided in different sections (e.g. command definition, command
+        placement, ...), with each defining a specific set of properties.
+        See the comment before each section for more details about how to
+        use it. -->
+
+  <!--  The VSCT compiler (the tool that translates this file into the binary 
+        format that VisualStudio will consume) has the ability to run a preprocessor 
+        on the vsct file; this preprocessor is (usually) the C++ preprocessor, so 
+        it is possible to define includes and macros with the same syntax used 
+        in C++ files. Using this ability of the compiler here, we include some files 
+        defining some of the constants that we will use inside the file. -->
+
+  <!--This is the file that defines the IDs for all the commands exposed by VisualStudio. -->
+  <Extern href="stdidcmd.h" />
+
+  <!--This header contains the command ids for the menus provided by the shell. -->
+  <Extern href="vsshlids.h" />
+
+  <!--Definition of some VSCT specific constants. In this sample we use it for the IDs inside the guidOfficeIcon group. -->
+  <!--<Extern href="msobtnid.h" xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" />-->
+
+
+
+
+  <!--The Commands section is where we the commands, menus and menu groups are defined.
+      This section uses a Guid to identify the package that provides the command defined inside it. -->
+  <Commands package="guidAIT_DMF_DependencyManagerPkg">
+    <!-- Inside this section we have different sub-sections: one for the menus, another  
+    for the menu groups, one for the buttons (the actual commands), one for the combos 
+    and the last one for the bitmaps used. Each element is identified by a command id that  
+    is a unique pair of guid and numeric identifier; the guid part of the identifier is usually  
+    called "command set" and is used to group different command inside a logically related  
+    group; your package should define its own command set in order to avoid collisions  
+    with command ids defined by other packages. -->
+    
+    <!-- In this section you can define new menu groups. A menu group is a container for 
+         other menus or buttons (commands); from a visual point of view you can see the 
+         group as the part of a menu contained between two lines. The parent of a group 
+         must be a menu. -->
+
+    <Menus>
+      <Menu guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrMenu" priority="0x300" type="Menu">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrGroup" />
+        <Strings>
+          <ButtonText>Dependency Management</ButtonText>
+          <CommandName>Dependency Management</CommandName>
+        </Strings>
+      </Menu>
+      <Menu guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerGetDependenciesContextMenu" priority="0x100" type="Menu">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerMenuGroup"/>
+        <Strings>
+          <ButtonText>Get Dependencies</ButtonText>
+          <CommandName>Get Dependencies</CommandName>
+        </Strings>
+      </Menu>
+      <Menu guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerForceGetDependenciesContextMenu" priority="0x100" type="Menu">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerMenuGroup"/>
+        <Strings>
+          <ButtonText>Force Get Dependencies</ButtonText>
+          <CommandName>Force Get Dependencies</CommandName>
+        </Strings>
+      </Menu>
+      <Menu guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerGetDependenciesContextMenu" priority="0x100" type="Menu">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerMenuGroup"/>
+        <Strings>
+          <ButtonText>Get Dependencies</ButtonText>
+          <CommandName>Get Dependencies</CommandName>
+        </Strings>
+      </Menu>
+      <Menu guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerForceGetDependenciesContextMenu" priority="0x100" type="Menu">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerMenuGroup"/>
+        <Strings>
+          <ButtonText>Force Get Dependencies</ButtonText>
+          <CommandName>Force Get Dependencies</CommandName>
+        </Strings>
+      </Menu>
+    </Menus>
+    
+    <Groups>
+      <!-- Add menu group to Tools menu-->
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrGroup" priority="0x0000">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />
+      </Group>
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrMenuGroup" priority="0x0000">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrMenu" />
+      </Group>
+
+      <!-- Add source control explorer context menu -->
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerMenuGroup" priority="0x0200">
+        <Parent guid="guidSourceMenu" id="menuidSourceExplorerMenu" />
+      </Group>
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerGetDependenciesMenuGroup" priority="0x0200">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerGetDependenciesContextMenu"/>
+      </Group>
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerForceGetDependenciesMenuGroup" priority="0x0200">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerForceGetDependenciesContextMenu"/>
+      </Group>
+
+      <!-- Add solution explorer context menu -->
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerMenuGroup" priority="0x0300">
+        <Parent guid="guidVSMenu" id="menuidSolutionFile" />
+      </Group>
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerGetDependenciesMenuGroup" priority="0x0100">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerGetDependenciesContextMenu"/>
+      </Group>
+      <Group guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerForceGetDependenciesMenuGroup" priority="0x0100">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerForceGetDependenciesContextMenu"/>
+      </Group>
+    </Groups>
+    
+    <!--Buttons section. -->
+    <!--This section defines the elements the user can interact with, like a menu command or a button 
+        or combo box in a toolbar. -->
+    <Buttons>
+      <!--To define a menu group you have to specify its ID, the parent menu and its display priority. 
+          The command is visible and enabled by default. If you need to change the visibility, status, etc, you can use
+          the CommandFlag node.
+          You can add more than one CommandFlag node e.g.:
+              <CommandFlag>DefaultInvisible</CommandFlag>
+              <CommandFlag>DynamicVisibility</CommandFlag>
+          If you do not want an image next to your command, remove the Icon node or set it to <Icon guid="guidOfficeIcon" id="msotcidNoIcon" /> -->
+
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidUserHelpToolsMenu" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrMenuGroup" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidUserHelpToolsMenu</CommandName>
+          <ButtonText>View help</ButtonText>
+        </Strings>
+      </Button>
+
+      <!-- Edit general settings menu command -->
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidEditGeneralSettingsToolsMenu" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrMenuGroup" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidEditGeneralSettingsToolsMenu</CommandName>
+          <ButtonText>General settings</ButtonText>
+        </Strings>
+      </Button>
+
+      <!-- Edit personal settings menu command -->
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidEditPersonalSettingsToolsMenu" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="ToolsDepMgrMenuGroup" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidEditPersonalSettingsToolsMenu</CommandName>
+          <ButtonText>Personal settings</ButtonText>
+        </Strings>
+      </Button>
+  
+      <!-- Solution Control context menu -->
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidGetDependenciesRecursiveSolution" priority="0x0100" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidGetDependenciesRecursiveSolution</CommandName>
+          <ButtonText>All Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidGetDirectDependenciesSolution" priority="0x0100" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidGetDirectDependenciesSolution</CommandName>
+          <ButtonText>Direct Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidForcedGetDependenciesRecursiveSolution" priority="0x0100" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerForceGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidForcedGetDependenciesRecursiveSolution</CommandName>
+          <ButtonText>All Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidForcedGetDirectDependenciesSolution" priority="0x0100" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerForceGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidForcedGetDirectDependenciesSolution</CommandName>
+          <ButtonText>Direct Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidCleanDependenciesSolution" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SolutionExplorerMenuGroup" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidCleanDependenciesSolution</CommandName>
+          <ButtonText>Clean Dependencies</ButtonText>
+        </Strings>
+      </Button>
+
+      <!-- Source Control Contextmenu -->
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidGetDependenciesRecursiveSourceControl" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidGetDependenciesRecursiveSourceControl</CommandName>
+          <ButtonText>All Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidGetDirectDependenciesSourceControl" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidGetDirectDependenciesSourceControl</CommandName>
+          <ButtonText>Direct Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidForcedGetDependenciesRecursiveSourceControl" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerForceGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidForcedGetDependenciesRecursiveSourceControl</CommandName>
+          <ButtonText>All Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidForcedGetDirectDependenciesSourceControl" priority="0x0200" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerForceGetDependenciesMenuGroup"/>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidForcedGetDirectDependenciesSourceControl</CommandName>
+          <ButtonText>Direct Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidCleanDependenciesSourceControl" priority="0x0300" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerMenuGroup" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidCleanDependenciesSourceControl</CommandName>
+          <ButtonText>Clean Dependencies</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAIT_DMF_DependencyManagerCmdSet" id="cmdidCreateComponentTargetsSourceControl" priority="0x0100" type="Button">
+        <Parent guid="guidAIT_DMF_DependencyManagerCmdSet" id="SourceControlExplorerMenuGroup" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <Strings>
+          <CommandName>cmdidCreateComponentTargetsSourceControl</CommandName>
+          <ButtonText>Create Dependency Definition File</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+   
+    <!--The bitmaps section is used to define the bitmaps that are used for the commands.-->
+    <Bitmaps>
+      <!--  The bitmap id is defined in a way that is a little bit different from the others: 
+            the declaration starts with a guid for the bitmap strip, then there is the resource id of the 
+            bitmap strip containing the bitmaps and then there are the numeric ids of the elements used 
+            inside a button definition. An important aspect of this declaration is that the element id 
+            must be the actual index (1-based) of the bitmap inside the bitmap strip. -->
+      <Bitmap guid="guidImages" href="Resources\Images_32bit.bmp" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows" />
+
+    </Bitmaps>
+ 
+  </Commands>
+
+
+  <Symbols>
+    <!-- This is the package guid. -->
+    <GuidSymbol name="guidAIT_DMF_DependencyManagerPkg" value="{9aeb6ec4-ebde-4d28-9da1-11631f367199}" />
+    
+    <!-- This is the guid used to group the menu commands together -->
+    <GuidSymbol name="guidAIT_DMF_DependencyManagerCmdSet" value="{5bfd441a-b291-4961-84e0-ef3365f59f9e}">
+      <!-- Menus -->
+      <IDSymbol name="ToolsDepMgrMenu" value="0x1101"/>
+      <IDSymbol name="SourceControlExplorerGetDependenciesContextMenu" value="0x1102"/>
+      <IDSymbol name="SourceControlExplorerForceGetDependenciesContextMenu" value="0x1103"/>
+      <IDSymbol name="SolutionExplorerGetDependenciesContextMenu" value="0x1104"/>
+      <IDSymbol name="SolutionExplorerForceGetDependenciesContextMenu" value="0x1105"/>
+      <!-- Menu groups -->
+      <IDSymbol name="ToolsDepMgrGroup" value="0x1010" />
+      <IDSymbol name="ToolsDepMgrMenuGroup" value="0x1020" />
+      <IDSymbol name="SolutionExplorerMenuGroup" value="0x1030" />
+      <IDSymbol name="SolutionExplorerGetDependenciesMenuGroup" value="0x1031" />
+      <IDSymbol name="SolutionExplorerForceGetDependenciesMenuGroup" value="0x1032" />
+      <IDSymbol name="SourceControlExplorerMenuGroup" value="0x1040" />
+      <IDSymbol name="SourceControlExplorerGetDependenciesMenuGroup" value="0x1041" />
+      <IDSymbol name="SourceControlExplorerForceGetDependenciesMenuGroup" value="0x1042" />
+      <!-- Commands -->
+      <IDSymbol name="cmdidGetDependenciesToolsMenu" value="0x0101"/>
+      <IDSymbol name="cmdidUserHelpToolsMenu" value="0x0103"/>
+      <IDSymbol name="cmdidEditGeneralSettingsToolsMenu" value="0x0104"/>
+      <IDSymbol name="cmdidGetDependenciesRecursiveSolution" value="0x0105"/>
+      <IDSymbol name="cmdidCleanDependenciesSolution" value="0x0106"/>
+      <IDSymbol name="cmdidForcedGetDependenciesRecursiveSolution" value="0x0107"/>
+      <IDSymbol name="cmdidGetDirectDependenciesSolution" value="0x0108"/>
+      <IDSymbol name="cmdidForcedGetDirectDependenciesSolution" value="0x0109"/>
+      <IDSymbol name="cmdidGetDependenciesRecursiveSourceControl" value="0x0110"/>
+      <IDSymbol name="cmdidCleanDependenciesSourceControl" value="0x0111"/>
+      <IDSymbol name="cmdidCreateComponentTargetsSourceControl" value="0x0112"/>
+      <IDSymbol name="cmdidForcedGetDependenciesRecursiveSourceControl" value="0x0113"/>
+      <IDSymbol name="cmdidGetDirectDependenciesSourceControl" value="0x0114"/>
+      <IDSymbol name="cmdidForcedGetDirectDependenciesSourceControl" value="0x0115"/>
+      <IDSymbol name="cmdidEditPersonalSettingsToolsMenu" value="0x0116"/>
+    </GuidSymbol>
+
+    <!-- Visual Studio Menu -->
+    <GuidSymbol name="guidVSMenu" value="{D309F791-903F-11D0-9EFC-00A0C911004F}">
+      <IDSymbol name="menuidSolutionFile" value="1072" />
+      <IDSymbol name="menuidSolutionProject" value="1026" />
+      <IDSymbol name="menuidSolutionFolder" value="1044" />
+    </GuidSymbol>
+    
+    <!-- Source control context menu -->
+    <GuidSymbol name="guidSourceMenu" value="{FFE1131C-8EA1-4D05-9728-34AD4611BDA9}">
+      <IDSymbol name="menuidSourceExplorerMenu" value="4113" />
+    </GuidSymbol>
+    
+    <GuidSymbol name="guidImages" value="{552aaee8-9fce-4eeb-ae56-bb5021997c73}">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>

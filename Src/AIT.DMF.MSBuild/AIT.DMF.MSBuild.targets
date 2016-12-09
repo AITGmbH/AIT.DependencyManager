@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <!-- AIT.DMF.MSBuild -->
+  
+  <UsingTask TaskName="AIT.DMF.MSBuild.GetDependencies" 
+         AssemblyFile="$(MSBuildExtensionsPath)\AIT\DMF\AIT.DMF.MSBuild.dll" />
+
+  <UsingTask TaskName="AIT.DMF.MSBuild.CleanDependencies"
+       AssemblyFile="$(MSBuildExtensionsPath)\AIT\DMF\AIT.DMF.MSBuild.dll" />
+  
+  <!-- Dependencies are fetched by calling the tasks with the following parameters (Get and clean dependencies): 
+       * Required parameters:
+         * DependencyDefinitionPath: Path to dependency definition file
+       * Optional parameters:
+         * BinaryTeamProjectCollectionUrl: Team project collection which contains binary repository team project
+         * BinaryRepositoryTeamProject: Team project for binary repository
+         * RelativeOutputPath: Relative output path (based on the dependency definition file directory)
+  -->
+  <Target Name="GetDependencies">
+    <GetDependencies DependencyDefinitionPath="component.targets" />
+  </Target>
+
+  <Target Name="CleanDependencies">
+    <CleanDependencies DependencyDefinitionPath="component.targets" />
+  </Target>
+  
+</Project>       

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>3.6</ProductVersion>
+    <ProjectGuid>{951ef394-ca03-41f1-be44-753de02ac375}</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>AITBuildIntegrationInstaller_v14</OutputName>
+    <OutputType>Package</OutputType>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' AND '$(MSBuildExtensionsPath32)' != '' ">$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets</WixTargetsPath>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' ">$(MSBuildExtensionsPath)\Microsoft\WiX\v3.x\Wix.targets</WixTargetsPath>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>$(GlobalOutputPath)bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>Debug</DefineConstants>
+    <SuppressAllWarnings>True</SuppressAllWarnings>
+    <Pedantic>False</Pedantic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>$(GlobalOutputPath)bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BuildTasksComponents.wxs" />
+    <Compile Include="BuildTasksProduct.wxs" />
+    <Compile Include="DMWixUI_InstallDir.wxs" />
+    <Compile Include="SpecifyDllPathDlg.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WixExtension Include="WixUIExtension">
+      <HintPath>$(WixExtDir)\WixUIExtension.dll</HintPath>
+      <Name>WixUIExtension</Name>
+    </WixExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ressources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ressources\BannerAIT.jpg" />
+    <Content Include="Ressources\Dialog.jpg" />
+    <Content Include="Ressources\License.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AIT.DMF.MSBuild\AIT.DMF.MSBuild.csproj">
+      <Name>AIT.DMF.MSBuild</Name>
+      <Project>{54a76775-652a-46f8-81c7-8c22a600f23d}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AIT.DMF.Workflow\AIT.DMF.Workflow.csproj">
+      <Name>AIT.DMF.Workflow</Name>
+      <Project>{b6a4e4e7-e1a8-4386-b299-74a6298a1190}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="..\..\ProjectSettings.props" />
+  <Import Project="$(WixTargetsPath)" />
+  <!--
+  To modify your build process, add your task inside one of the targets below and uncomment it.
+  Other similar extension points exist, see Wix.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  -->
+  <Target Name="AfterBuild">
+    <Move SourceFiles="$(OutDir)\$(OutputName).msi" DestinationFiles="$(OutDir)\Setup\$(OutputName).msi" />
+    <Move SourceFiles="$(OutDir)\$(OutputName).wixpdb" DestinationFiles="$(OutDir)\Setup\$(OutputName).wixpdb" />
+  </Target>
+</Project>

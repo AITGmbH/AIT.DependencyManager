@@ -1,0 +1,100 @@
+id: 4-36.0-41.r41/0
+type: file
+pred: 4-36.0-39.r39/0
+count: 2
+text: 2 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 35-10/_6
+cpath: /trunk/src/ComponentWithExternals/UsingCommon.cs
+copyfrom: 40 /trunk/src/ComponentWithExternals/UsingFramework.cs
+
+PLAIN
+K 14
+UsingCommon.cs
+V 20
+file 4-36.0-41.r41/0
+END
+ENDREP
+id: 2-36.0.r41/344
+type: dir
+pred: 2-36.0.r39/346
+count: 3
+text: 41 281 50 50 1f1b147621c8191c471343e2820b1307
+props: 38 0 185 185 747c8a0f2da11d16b0684278294375fb
+cpath: /trunk/src/ComponentWithExternals
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 16
+dir 2-18.0.r35/0
+K 14
+ComponentEmpty
+V 18
+dir 2-25.0.r25/262
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-26.0.r26/0
+K 22
+ComponentWithExternals
+V 18
+dir 2-36.0.r41/344
+END
+ENDREP
+id: q-2.0.r41/765
+type: dir
+pred: q-2.0.r39/767
+count: 17
+text: 41 564 188 188 a17d3592dd1e5b5626a71029e4ad0eb7
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r40/1557
+K 3
+src
+V 17
+dir q-2.0.r41/765
+END
+ENDREP
+id: 3-1.0.r41/1038
+type: dir
+pred: 3-1.0.r40/1785
+count: 34
+text: 41 958 67 67 423df7ade7a18fe8bd3f16c04c6ec09a
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r28/240
+K 5
+trunk
+V 18
+dir 3-1.0.r41/1038
+END
+ENDREP
+id: 0.0.r41/1295
+type: dir
+pred: 0.0.r40/2043
+count: 41
+text: 41 1179 103 103 5eb0480c53ed9c4ab8256551d1eba102
+cpath: /
+copyroot: 0 /
+
+4-36._0.t40-15 add-file false false /trunk/src/ComponentWithExternals/UsingCommon.cs
+40 /trunk/src/ComponentWithExternals/UsingFramework.cs
+4-36.0-39.r39/0 delete-file false false /trunk/src/ComponentWithExternals/UsingFramework.cs
+
+
+1295 1430

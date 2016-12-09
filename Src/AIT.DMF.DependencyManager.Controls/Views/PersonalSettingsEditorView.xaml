@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="AIT.DMF.DependencyManager.Controls.Views.PersonalSettingsEditorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:converters="clr-namespace:AIT.DMF.DependencyManager.Controls.Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="500"
+             d:DesignWidth="300"
+             MinHeight="550"
+           >
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\Resources\Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <converters:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+            <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"  >
+
+
+        <Grid Grid.IsSharedSizeScope="True" SnapsToDevicePixels="True" Margin="0,0,0,0" d:DataContext="{d:DesignData local:PersonalSettingsEditorViewModel}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" MinHeight="500" />
+                <RowDefinition Height="0*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"
+                              MinWidth="200"
+                              SharedSizeGroup="First"
+                              />
+                <ColumnDefinition Width="*"
+                              />
+                <ColumnDefinition Width="*"
+                              MinWidth="10"
+                              />
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="5,5,0,5"
+                   Grid.Row="1" Grid.ColumnSpan="2"
+                   Style="{StaticResource CaptionStyle}"
+                   Text="Personal Settings" />
+
+            <StackPanel Grid.Row="16"
+                    Grid.ColumnSpan="2"
+                    Margin="5,15,0,5"
+                    HorizontalAlignment="Left"
+                    Orientation="Vertical" Width="350">
+                <TextBlock
+                Text="You are not connected to Team Foundation Server"
+                TextWrapping="Wrap"
+                Visibility="{Binding ProjectContext.DomainUri, Converter={StaticResource NullToVisibilityConverter}, ConverterParameter=True}" Foreground="#FFF50707"/>
+                <TextBlock
+                Text="Failed to save settings"
+                Margin="0,0,0,5"
+                TextWrapping="Wrap"
+                Visibility="{Binding SaveSettingsFailed, Converter={StaticResource BooleanToVisibilityConverter}}" Foreground="#FFF50707"/>
+                <TextBlock
+                Text="{Binding ProjectContext.DomainUri, StringFormat='Connected to {0}'}"
+                Visibility="{Binding ProjectContext.DomainUri, Converter={StaticResource NullToVisibilityConverter}, ConverterParameter=False}"/>
+
+                <Button Margin="0,5"
+                    Content="Save"
+                    Width="70"
+                    Command="{Binding SaveCommand}"
+                    HorizontalAlignment="Left" TabIndex="11"/>
+            </StackPanel>
+            <TextBlock Margin="5,10,45,4"
+            	Grid.Row="2"
+            	Grid.Column="0"
+            	ToolTip="Please select the 7z.exe from the installation path of your 7z installation" ><Run Text="Path to 7z."/><Run Text="exe"/><Run Text=" "/>
+                <Hyperlink NavigateUri="http://www.7-zip.org/" RequestNavigate="Hyperlink_RequestNavigate" TargetName="_blank"><Run Text="(?)"/></Hyperlink>
+            </TextBlock>
+            <TextBox Margin="5,5,0,5"
+            	Text="{Binding PathToSevenZipExe, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+            	Grid.Row="2"
+            	x:Name ="SevenZipExeTextBox"
+            	IsEnabled="{Binding IsSevenZipEnabled}" Grid.Column="1" Width="180" HorizontalAlignment="Left" TabIndex="3"/>
+            <Button Content="..."
+                Grid.Row="2"
+                Grid.Column="1"
+                Height="26" HorizontalAlignment="Left"
+                Name="BrowseSevenZipExe" VerticalAlignment="Top" Width="20" Click="BrowseButton_Click"
+                IsEnabled="{Binding IsSevenZipEnabled}" Margin="190,5,0,0" TabIndex="2"/>
+            <TextBlock HorizontalAlignment="Left" Margin="5,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Overwrite current AD-Site with" VerticalAlignment="Top" Height="16" Width="181" IsEnabled="{Binding IsMultiSiteAllowed}"
+                ToolTip="Choose &lt;Automatic&gt; to automatically detect the current AD-site of domain, or a specfic AD-Site, which is defined in general settings."/>
+            <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="5,5,0,0" Grid.Row="3" VerticalAlignment="Top" Width="180" x:Name="cbxSelectedMultiSite"
+                      ItemsSource="{Binding AvailableSites}" SelectedItem="{Binding SelectedSite, Mode=TwoWay}" IsEnabled="{Binding IsMultiSiteAllowed}" TabIndex="8" />
+
+        </Grid>
+    </ScrollViewer>
+</UserControl>

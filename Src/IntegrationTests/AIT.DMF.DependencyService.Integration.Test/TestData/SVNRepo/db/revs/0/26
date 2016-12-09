@@ -1,0 +1,76 @@
+id: 2-26.0.r26/0
+type: dir
+count: 0
+cpath: /trunk/src/ComponentNoTargetsFile
+copyroot: 0 /
+
+PLAIN
+K 10
+ComponentA
+V 18
+dir 2-18.0.r20/620
+K 14
+ComponentEmpty
+V 18
+dir 2-25.0.r25/262
+K 22
+ComponentNoTargetsFile
+V 16
+dir 2-26.0.r26/0
+END
+ENDREP
+id: q-2.0.r26/243
+type: dir
+pred: q-2.0.r25/501
+count: 8
+text: 26 92 138 138 749d93dc53c6826a9d51fc44c9e075f4
+props: 6 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /trunk/src
+copyroot: 0 /
+
+PLAIN
+K 3
+lib
+V 18
+dir 1-2.0.r17/1023
+K 3
+src
+V 17
+dir q-2.0.r26/243
+END
+ENDREP
+id: 3-1.0.r26/514
+type: dir
+pred: 3-1.0.r25/771
+count: 21
+text: 26 434 67 67 4f57f0bf7b2e17acb4d1bdecb4eb4b35
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 17
+dir 2-1.0.r24/709
+K 5
+trunk
+V 17
+dir 3-1.0.r26/514
+END
+ENDREP
+id: 0.0.r26/768
+type: dir
+pred: 0.0.r25/1026
+count: 26
+text: 26 653 102 102 e9d6fc688750ada92a03416a03ecc6b4
+cpath: /
+copyroot: 0 /
+
+_2.0.t25-p add-dir false false /trunk/src/ComponentNoTargetsFile
+
+
+768 901
