@@ -117,9 +117,6 @@ namespace AIT.DMF.MSBuild
                 throw new ArgumentException(string.Format("Error while determining workspace information (Could not determine local workstation object)"));
             }
 
-            //Sometimes (sporadically) GetLocalWorkspaceInfo method does not work properly, therefore reload the local cache
-            workstation.ReloadCache();
-
             var workstationInfo = workstation.GetLocalWorkspaceInfo(localProjectFile);
             if (workstationInfo == null)
             {
