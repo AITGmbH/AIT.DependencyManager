@@ -75,7 +75,7 @@
                   IsReadOnly="True"
                   >
             <ComboBox.Resources>
-                <Style TargetType="ComboBoxItem" BasedOn="{StaticResource MetroComboBoxItemWithCheckBoxesStyle}">
+                <Style TargetType="ComboBoxItem">
                     <EventSetter Event="Selected" Handler="ComboBoxItemSelected" />
                 </Style>
             </ComboBox.Resources>
@@ -100,7 +100,7 @@
                   IsEditable="true"
                   IsReadOnly="true" >
             <ComboBox.Resources>
-                <Style TargetType="ComboBoxItem" BasedOn="{StaticResource MetroComboBoxItemWithCheckBoxesStyle}">
+                <Style TargetType="ComboBoxItem" >
                     <EventSetter Event="Selected" Handler="ComboBoxItemSelected" />
                 </Style>
             </ComboBox.Resources>
