@@ -38,4 +38,4 @@ function GetLibrariesDirectory {
 
 $extensionDir = GetVisualStudioExtensionsDirectory
 $targetDir = GetLibrariesDirectory
-CopyLibraries $extensionDir $targetDir
+CopyLibraries "$extensionDir" "$targetDir"
